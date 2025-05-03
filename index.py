@@ -106,72 +106,115 @@
 
 # tuple methods
 
-thisTuple=("apple", "banana", "cherry")
-print(thisTuple)
-print(type(thisTuple))
-print(len(thisTuple))
-print(thisTuple[1])
-for x in thisTuple:
-    print(x)
+# thisTuple=("apple", "banana", "cherry")
+# print(thisTuple)
+# print(type(thisTuple))
+# print(len(thisTuple))
+# print(thisTuple[1])
+# for x in thisTuple:
+#     print(x)
 
-for i in range(len(thisTuple)):
-    print(thisTuple[i])
+# for i in range(len(thisTuple)):
+#     print(thisTuple[i])
     
-tuple1=("a","b","c")
-tuple2=(1,2,3)
-tuple3=tuple1 + tuple2
-print(tuple3) 
+# tuple1=("a","b","c")
+# tuple2=(1,2,3)
+# tuple3=tuple1 + tuple2
+# print(tuple3) 
 
-myTuple=thisTuple*3
-print(myTuple)   
+# myTuple=thisTuple*3
+# print(myTuple)   
 
 
 
-number = (1,3,4,6,7,3,5,3,7)
-print(number.count(3))
-print(number.count(7))
-print(number.index(4))
+# number = (1,3,4,6,7,3,5,3,7)
+# print(number.count(3))
+# print(number.count(7))
+# print(number.index(4))
 
 
 
 # dictionary methods
 
-studentData = {"name":"mantahsa sheikh","class":"twelth","subject":"maths","age":21}
-print(studentData)
+# studentData = {"name":"mantahsa sheikh","class":"twelth","subject":"maths","age":21}
+# print(studentData)
 
-print(len(studentData))
+# print(len(studentData))
 
-print(type(studentData))
+# print(type(studentData))
 
-print(studentData["class"])
+# print(studentData["class"])
 
-del studentData["class"]
-print(studentData)
+# del studentData["class"]
+# print(studentData)
 
-print(studentData.get("name"))
+# print(studentData.get("name"))
 
 
 # key is mandatary
-print(studentData.pop("subject")) 
+# print(studentData.pop("subject")) 
 
 
 # key is not mandatary it removes the items from the last
-print(studentData.popitem())
+# print(studentData.popitem())
 
-for i in studentData.items():
-    print(i)
+# for i in studentData.items():
+#     print(i)
     
-for j in studentData.keys():
-    print(j)
+# for j in studentData.keys():
+#     print(j)
     
-for k in studentData.values():
-    print(k)
+# for k in studentData.values():
+#     print(k)
     
-studentData.setdefault("grade","A")            
+# studentData.setdefault("grade","A")            
 
-foodItems={"fruits":"mango","vegetable":"ladyfinger"}
-foodItems.clear()
-print(foodItems)
+# foodItems={"fruits":"mango","vegetable":"ladyfinger"}
+# foodItems.clear()
+# print(foodItems)
+
+
+# ternary operator
+
+# check the number is even or odd
+
+number = int(input("enter a number:"))
+print(number,":is even") if(number%2==0) else print(number, ":is odd")
+
+# check the number is multiple of 5 or not
+
+num = int(input("enter a number:"))
+print(num,": is multiple of 5") if(num%5==0) else print(num,":is not a multiple of 5")
+
+# check the age is eligible for vote or not
+
+age = int(input("enter a number:"))
+print("person is eligible for vote") if(age>=18) else print("the person is not eligible for vote")
+
+# check the given password is correct or not
+
+password = int(input("enter a password:"))
+print("password is correct") if(password==1234) else print("password is not correct")
+
+# check the given number in between 1-100 or not
+
+n = int(input("enter a number:"))
+print(n, ":is between 1-100") if(n>=0 and n<=100) else print(n,":is not between 1-100")
+
+# check the number is positive or negative
+
+number1 = -2
+print(number1, ":is positive") if(number1>=0) else print(number1, ":is negative")
+
+# range function
+
+print(range(0,6))
+print(list(range(0,6)))
+print(tuple(range(1,6,2)))
+print(list(range(-1, -11, -2)))
+
+
+
 
 
 
