@@ -178,40 +178,135 @@
 
 # check the number is even or odd
 
-number = int(input("enter a number:"))
-print(number,":is even") if(number%2==0) else print(number, ":is odd")
+# number = int(input("enter a number:"))
+# print(number,":is even") if(number%2==0) else print(number, ":is odd")
 
 # check the number is multiple of 5 or not
 
-num = int(input("enter a number:"))
-print(num,": is multiple of 5") if(num%5==0) else print(num,":is not a multiple of 5")
+# num = int(input("enter a number:"))
+# print(num,": is multiple of 5") if(num%5==0) else print(num,":is not a multiple of 5")
 
 # check the age is eligible for vote or not
 
-age = int(input("enter a number:"))
-print("person is eligible for vote") if(age>=18) else print("the person is not eligible for vote")
+# age = int(input("enter a number:"))
+# print("person is eligible for vote") if(age>=18) else print("the person is not eligible for vote")
 
 # check the given password is correct or not
 
-password = int(input("enter a password:"))
-print("password is correct") if(password==1234) else print("password is not correct")
+# password = int(input("enter a password:"))
+# print("password is correct") if(password==1234) else print("password is not correct")
 
 # check the given number in between 1-100 or not
 
-n = int(input("enter a number:"))
-print(n, ":is between 1-100") if(n>=0 and n<=100) else print(n,":is not between 1-100")
+# n = int(input("enter a number:"))
+# print(n, ":is between 1-100") if(n>=0 and n<=100) else print(n,":is not between 1-100")
 
 # check the number is positive or negative
 
-number1 = -2
-print(number1, ":is positive") if(number1>=0) else print(number1, ":is negative")
+# number1 = -2
+# print(number1, ":is positive") if(number1>=0) else print(number1, ":is negative")
 
 # range function
 
-print(range(0,6))
-print(list(range(0,6)))
-print(tuple(range(1,6,2)))
-print(list(range(-1, -11, -2)))
+# print(range(0,6))
+# print(list(range(0,6)))
+# print(tuple(range(1,6,2)))
+# print(list(range(-1, -11, -2)))
+
+
+# questin:- (using nested if else)order place in restaurant
+
+menu = {"pizza":150, "Burger":100, "Momos":50, "dry":80}
+print(menu)
+order = input("enter a order(pizza, Burger, Momos, dry):")
+
+
+if (order=="pizza"):
+    quantity = int(input("enter a quantity:"))
+    if (quantity>0):
+        print("prize of pizza is:", 150*quantity)
+    else:
+        print("invalid quatity")
+        
+elif (order=="Burger"):
+    quantity = int(input("enter a quantity:"))
+    if (quantity>0):
+        print("prize of pizza is:", 100*quantity)
+    else:
+        print("invalid quatity") 
+        
+elif (order=="Momos"):
+    quantity = int(input("enter a quantity:"))
+    if (quantity>0):
+        print("prize of pizza is:", 50*quantity)
+    else:
+        print("invalid quatity") 
+        
+elif (order=="dry"):
+    quantity = int(input("enter a quantity:"))
+    if (quantity>0):
+        print("prize of pizza is:", 80*quantity)
+    else:
+        print("invalid quatity")
+        
+else:
+    print("this is not available") 
+    
+    
+#question:-
+ 
+studentMarks = int(input("enter a student marks:"))
+if (studentMarks>0 and studentMarks<=30):
+    print("student grade is :" , "D")
+elif (studentMarks>30 and studentMarks<=50):
+    print("student grade is :" , "C" )
+elif (studentMarks>50 and studentMarks<=70):
+    print("student grade is :" , "B" )
+elif (studentMarks>70 and studentMarks<=100):
+    print("student grade is :" , "A" )
+else:
+    print("invalid marks")    
+    
+    
+# question:-
+
+salary = int(input("enter a salary:"))
+if (salary>0 and salary<=10000):
+    mobileName = input("enter a mobile name (nokia, realme, iphone):") 
+    if (mobileName=="nokia"):
+        print("prize of nokia:" , 5000)
+    
+    
+    
+elif (salary>0 and salary<=10000):
+    mobileName = input("enter a mobile name (nokia, realme, iphone):")
+    if (mobileName=="realme"):
+        print("prize of realme:" , 30000 )
+     
+    
+elif (salary>0 and salary<=10000):
+    mobileName = input("enter a mobile name (nokia, realme, iphone):") 
+    if (mobileName=="iphone"):
+        print("prize of iphone:" , 80000)
+    
+    
+else:
+    print("invalid salary")    
+            
+    
+    
+         
+        
+        
+       
+     
+                                   
+        
+    
+    
+
+
+
 
 
 
