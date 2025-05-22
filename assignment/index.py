@@ -145,67 +145,169 @@
  
     
     
-# write a program to count the total number of notes in the given amount
-# Input the amount
-amount = int(input("Enter the amount: Rs"))
+# 13. write a program to count the total number of notes in the given amount
+# amount = int(input("Enter the amount: Rs"))
 
-print("Calculating notes for amount: Rs",amount)
-total_notes = 0
+# print(f"Calculating notes for amount: Rs {amount}")
+# total_notes = 0
 
-if amount >= 500:
-    n500 = amount // 500
-    print("Rs500 notes:", n500)
-    total_notes += n500
-    amount = amount % 500
+# if amount >= 500:
+#     n500 = amount // 500
+#     print("Rs500 notes:", n500)
+#     total_notes += n500
+#     amount = amount % 500
 
-if amount >= 200:
-    n200 = amount // 200
-    print("Rs200 notes:", n200)
-    total_notes += n200
-    amount = amount % 200
+# if amount >= 200:
+#     n200 = amount // 200
+#     print("Rs200 notes:", n200)
+#     total_notes += n200
+#     amount = amount % 200
 
-if amount >= 100:
-    n100 = amount // 100
-    print("Rs100 notes:", n100)
-    total_notes += n100
-    amount = amount % 100
+# if amount >= 100:
+#     n100 = amount // 100
+#     print("Rs100 notes:", n100)
+#     total_notes += n100
+#     amount = amount % 100
 
-if amount >= 50:
-    n50 = amount // 50
-    print("Rs50 notes:", n50)
-    total_notes += n50
-    amount = amount % 50
+# if amount >= 50:
+#     n50 = amount // 50
+#     print("Rs50 notes:", n50)
+#     total_notes += n50
+#     amount = amount % 50
 
-if amount >= 20:
-    n20 = amount // 20
-    print("₹20 notes:", n20)
-    total_notes += n20
-    amount = amount % 20
+# if amount >= 20:
+#     n20 = amount // 20
+#     print("₹20 notes:", n20)
+#     total_notes += n20
+#     amount = amount % 20
 
-if amount >= 10:
-    n10 = amount // 10
-    print("Rs10 notes:", n10)
-    total_notes += n10
-    amount = amount % 10
+# if amount >= 10:
+#     n10 = amount // 10
+#     print("Rs10 notes:", n10)
+#     total_notes += n10
+#     amount = amount % 10
 
-if amount >= 5:
-    n5 = amount // 5
-    print("Rs5 notes:", n5)
-    total_notes += n5
-    amount = amount % 5
+# if amount >= 5:
+#     n5 = amount // 5
+#     print("Rs5 notes:", n5)
+#     total_notes += n5
+#     amount = amount % 5
 
-if amount >= 2:
-    n2 = amount // 2
-    print("Rs2 notes:", n2)
-    total_notes += n2
-    amount = amount % 2
+# if amount >= 2:
+#     n2 = amount // 2
+#     print("Rs2 notes:", n2)
+#     total_notes += n2
+#     amount = amount % 2
 
-if amount >= 1:
-    n1 = amount
-    print("Rs1 notes:", n1)
-    total_notes += n1
+# if amount >= 1:
+#     n1 = amount
+#     print("Rs1 notes:", n1)
+#     total_notes += n1
 
-print("Total number of notes:", total_notes)
+# print("Total number of notes:", total_notes)
+
+
+
+
+# 14. write a program to input angles of a triangle and check whether triangle is valid or not
+# angle1 = float(input("enter angle1 :"))
+# angle2 = float(input("enter angle2 :"))
+# angle3 = float(input("enter angle3 :"))
+# sum_of_angles = angle1 + angle2 + angle3
+# if(angle1>0 and angle2>0 and angle3>0):
+#     if(sum_of_angles==180):
+#         print("this triangle is valid : ",sum_of_angles)
+#     else:
+#         print("this triangle is not valid")    
+# else:
+#     print("invalid angles") 
+    
+
+
+# 15. write a program to input all sides of a triangle and check whether th e triangle is valid or not
+# a = float(input("Enter first side: "))
+# b = float(input("Enter second side: "))
+# c = float(input("Enter third side: "))
+# if a > 0 and b > 0 and c > 0:
+#     if (a + b > c) and (a + c > b) and (b + c > a):
+#         print("The triangle is valid.")
+#     else:
+#         print("The triangle is not valid ")
+# else:
+#     print("The triangle is not valid ")
+    
+    
+
+
+# 16. write a program to check whether the triangle is equilateral, isosceles, and scalene
+# a = float(input("Enter side a: "))
+# b = float(input("Enter side b: "))
+# c = float(input("Enter side c: "))
+# if a <= 0 or b <= 0 or c <= 0:
+#     print("Invalid triangle: sides must be greater than zero.")
+# else:
+#     if (a + b > c) and (a + c > b) and (b + c > a):
+#         if a == b == c:
+#             print("The triangle is equilateral.")
+#         elif a == b or b == c or a == c:
+#             print("The triangle is isosceles.")
+#         else:
+#             print("The triangle is scalene.")
+#     else:
+#         print("Invalid triangle: violates the triangle inequality.") 
+        
+        
+
+# 17. write a program to calculate profit or loss
+cost_price = float(input("Enter the Cost Price (CP): "))
+selling_price = float(input("Enter the Selling Price (SP): "))
+
+if selling_price > cost_price:
+    profit = selling_price - cost_price
+    print(f"Profit = ₹{profit:.2f}")
+elif cost_price > selling_price:
+    loss = cost_price - selling_price
+    print(f"Loss = ₹{loss:.2f}")
+else:
+    print("No Profit No Loss.")
+    
+
+
+# 18. Write a  program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+physics = float(input("Enter marks in Physics: "))
+chemistry = float(input("Enter marks in Chemistry: "))
+biology = float(input("Enter marks in Biology: "))
+mathematics = float(input("Enter marks in Mathematics: "))
+computer = float(input("Enter marks in Computer: "))
+
+total_marks = physics + chemistry + biology + mathematics + computer
+percentage = (total_marks / 500) * 100
+
+print(f"Total Marks: {total_marks}/500")
+print(f"Percentage: {percentage:.2f}%")
+
+if percentage >= 90:
+    grade = "A"
+elif percentage >= 80:
+    grade = "B"
+elif percentage >= 70:
+    grade = "C"
+elif percentage >= 60:
+    grade = "D"
+elif percentage >= 40:
+    grade = "E"
+else:
+    grade = "F"
+
+print(f"Grade: {grade}")
+
+
+
+# 
+ 
+        
+        
+         
 
  
                        
