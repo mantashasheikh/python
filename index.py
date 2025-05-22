@@ -216,84 +216,338 @@
 
 # questin:- (using nested if else)order place in restaurant
 
-menu = {"pizza":150, "Burger":100, "Momos":50, "dry":80}
-print(menu)
-order = input("enter a order(pizza, Burger, Momos, dry):")
+# menu = {"pizza":150, "Burger":100, "Momos":50, "dry":80}
+# print(menu)
+# order = input("enter a order(pizza, Burger, Momos, dry):")
 
 
-if (order=="pizza"):
-    quantity = int(input("enter a quantity:"))
-    if (quantity>0):
-        print("prize of pizza is:", 150*quantity)
-    else:
-        print("invalid quatity")
+# if (order=="pizza"):
+#     quantity = int(input("enter a quantity:"))
+#     if (quantity>0):
+#         print("prize of pizza is:", 150*quantity)
+#     else:
+#         print("invalid quatity")
         
-elif (order=="Burger"):
-    quantity = int(input("enter a quantity:"))
-    if (quantity>0):
-        print("prize of pizza is:", 100*quantity)
-    else:
-        print("invalid quatity") 
+# elif (order=="Burger"):
+#     quantity = int(input("enter a quantity:"))
+#     if (quantity>0):
+#         print("prize of pizza is:", 100*quantity)
+#     else:
+#         print("invalid quatity") 
         
-elif (order=="Momos"):
-    quantity = int(input("enter a quantity:"))
-    if (quantity>0):
-        print("prize of pizza is:", 50*quantity)
-    else:
-        print("invalid quatity") 
+# elif (order=="Momos"):
+#     quantity = int(input("enter a quantity:"))
+#     if (quantity>0):
+#         print("prize of pizza is:", 50*quantity)
+#     else:
+#         print("invalid quatity") 
         
-elif (order=="dry"):
-    quantity = int(input("enter a quantity:"))
-    if (quantity>0):
-        print("prize of pizza is:", 80*quantity)
-    else:
-        print("invalid quatity")
+# elif (order=="dry"):
+#     quantity = int(input("enter a quantity:"))
+#     if (quantity>0):
+#         print("prize of pizza is:", 80*quantity)
+#     else:
+#         print("invalid quatity")
         
-else:
-    print("this is not available") 
+# else:
+#     print("this is not available") 
     
     
 #question:-
  
-studentMarks = int(input("enter a student marks:"))
-if (studentMarks>0 and studentMarks<=30):
-    print("student grade is :" , "D")
-elif (studentMarks>30 and studentMarks<=50):
-    print("student grade is :" , "C" )
-elif (studentMarks>50 and studentMarks<=70):
-    print("student grade is :" , "B" )
-elif (studentMarks>70 and studentMarks<=100):
-    print("student grade is :" , "A" )
-else:
-    print("invalid marks")    
+# studentMarks = int(input("enter a student marks:"))
+# if (studentMarks>0 and studentMarks<=30):
+#     print("student grade is :" , "D")
+# elif (studentMarks>30 and studentMarks<=50):
+#     print("student grade is :" , "C" )
+# elif (studentMarks>50 and studentMarks<=70):
+#     print("student grade is :" , "B" )
+# elif (studentMarks>70 and studentMarks<=100):
+#     print("student grade is :" , "A" )
+# else:
+#     print("invalid marks")    
     
     
 # question:-
 
-salary = int(input("enter a salary:"))
-if (salary>0 and salary<=10000):
-    mobileName = input("enter a mobile name (nokia, realme, iphone):") 
-    if (mobileName=="nokia"):
-        print("prize of nokia:" , 5000)
+# salary = int(input("enter a salary:"))
+# if (salary>0 and salary<=10000):
+#     mobileName = "nokia"
+#     price = 5000
+#     discount = 10
+#     print("the name of mobile he will take:", mobileName)
+#     print("the price of mobile will be:" ,price)
+#     print("after the discount of 10 % the price will be",price*10/100)
+
+
+# num = int(input("enter a number 1:"))
+# if (num==1):
+#     num = int(input("enter a number 2,3,4:"))
+#     if (num==4):
+#         print("reached")
+        
+#     elif (num==2):
+#         num=int(input("enter a number 3,4:"))
+#         if (num==4):
+#             print("reached")
+#         elif (num==3):
+#             num=int(input("enter a number 4:"))
+#             if (num==4):
+#                 print("reached") 
+#             else:
+#                 print("invalid number")
+#         else:
+#             print("invalid number")   
+        
+        
+#     elif (num==3):
+#         num=int(input("enter a number 2,4:"))
+#         if (num==4):
+#             print("reached")
+#         elif (num==2):
+#             num=int(input("enter a number 2:"))
+#             if (num==2):
+#                 num = int(input("enter a number 4:"))
+#                 print("reached")
+#             else:
+#                 print("invalid number")
+#         else:
+#             print("invalid number")
+#     else:
+#         print("invalid number")
+# else:
+#     print("invalid number")            
+    
+ 
     
     
+# ATM
+
+
+
+# bankName = input("enter a bank name:")
+# balance = 20000
+
+# if (bankName=="SBI"):
+#     password=int(input("enter a password:"))
+#     if (password==1234):
+#         option=input("enter what you want (withdraw, deposit, balance check):")
+#         if (option=="withdraw"):
+#             withdraw=int(input("enter a balance you want to withdraw:"))
+#             if(withdraw>=0 and withdraw<=20000):
+#                 print("after withdraw ,the balance available in the account:",balance-withdraw)
+#             else:
+#                 print("only 20000 is available in your account. you cannot withdraw")
     
-elif (salary>0 and salary<=10000):
-    mobileName = input("enter a mobile name (nokia, realme, iphone):")
-    if (mobileName=="realme"):
-        print("prize of realme:" , 30000 )
-     
-    
-elif (salary>0 and salary<=10000):
-    mobileName = input("enter a mobile name (nokia, realme, iphone):") 
-    if (mobileName=="iphone"):
-        print("prize of iphone:" , 80000)
-    
-    
-else:
-    print("invalid salary")    
+#         elif (option=="deposit"):
+#             deposit=int(input("enter a balance you want to deposit:"))
+#             if (deposit>0):
+#                 print("after deposit, the balance available in your account: ",balance+deposit)
+                
+#         elif (option=="balance check"):
+#             print("the total balance available in the account:", balance)
             
+#         else:
+#             print("incorrect option")    
+#     else:
+#         print("password is incorrect.please enter a correct password")
+# else:
+#     print("bank name is incorrect")  
     
+    
+#first check the email is correct or not next check the password
+
+
+
+# email = input("enter a email:")
+# if(email=="student@gmail.com"):
+#     password= int(input("enter a password:"))
+#     if(password==1234):
+#         print("welcome")
+#     else:
+#         print("bheed come")
+    
+# else:
+#     print("your email is incorrect .please enter a correct email")  
+
+
+# mobile price
+
+
+# mobile = input("enter a mobile (realme, iphone, oneplus):")
+
+# if(mobile=="realme"):
+#     model = input("enter a model of realme (realme13, realme13pro):")
+#     if(model=="realme13"):
+#         print("the prise of realme13 is:",25000)
+#     elif(model=="realme13pro"):
+#         print("the prise of realme13pro is:",30000) 
+#     else:
+#         print("this model is not available")       
+    
+    
+
+# elif(mobile=="iphone"):
+#     model = input("enter a model of iphone (iphone14, iphone15):")
+#     if(model=="iphone14"):
+#         print("the prise of iphone14 is:",70000)
+#     elif(model=="iphone15"):
+#         print("the prise of iphone15 is:",80000) 
+#     else:
+#         print("this model is not available")       
+    
+    
+    
+# elif(mobile=="oneplus"):
+#     model = input("enter a model of ineplus (oneplusNode, oneplusNode3):")
+#     if(model=="oneplusNode"):
+#         print("the prise of oneplusNode is:",30000)
+#     elif(model=="oneplusNode3"):
+#         print("the prise of oneplusNode3 is:",35000) 
+#     else:
+#         print("this model is not available")  
+    
+# else:
+#     print("this mobile is not available")  
+
+
+
+# electricity bill
+
+# unit = int(input("enter a unit:"))
+# if(unit>0 and unit<=50):
+#     print("rupees per unit:", unit*5)
+# elif(unit>50 and unit<=100):
+#     print("rupees per unit:", unit*10-250)
+# elif(unit>100 and unit<=150):
+#     print("rupees per unit:", unit*20-1000-250)
+# elif(unit>150):
+#     print("rupees per unit:", unit*30-3000-1000-250)
+# else:
+#     print("invalid unit")
+    
+
+# create a calculator
+
+# n1 = int(input("enter a number 1:"))
+# n2 = int(input("enter a number 2:")) 
+# operator = input("enter a  operator:")
+# if(operator=="+"):
+#     print("sum =", n1+n2)
+# elif(operator=="-"):
+#     print("diff =", n1-n2)
+# elif(operator=="*"):
+#     print("mul =", n1*n2)
+# elif(operator=="/"):
+#     print("div = ", n1/n2)
+# elif(operator=="%"):
+#     print("mod = ", n1%n2)
+# else:
+#     print("invalid operator")                    
+    
+# reverse a number using slicing
+# num ="1234567"
+# print(num[::-1])
+
+# swapping
+# a,b = 10,20
+# a,b=b,a
+# print(a)
+# print(b)
+
+# for i in range(1,11):
+#     print(i)
+
+# li = [1,2,3,4]
+# for i in range(len(li)):
+#     print(i,"=",li[i])
+    
+# for i in range(len(li)):
+#     print(i)
+    
+# for i in li:
+#     print(i)
+    
+# i=1
+# while i<10:
+#     print(i)
+#     i=i+1
+    
+li = [110,24,34,56,4287.76]
+mx = li[0]
+for i in range(len(li)):
+    if mx>li[i]:
+        mx=li[i]
+print(mx) 
+
+
+# write a fibonacci series
+
+
+
+
+# write a program to print perfect number
+
+
+
+
+# find the second largest element in an list
+
+
+
+    
+# find the Kth largest element in  an list
+
+# print the pattern
+# r = 5
+# for r in range(1,r+1):
+#     for c in range(1,r+1):
+#         if(c<=r):
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()    
+    
+
+# r = 5
+# for r in range(1,r+1):
+#     for c in range(1,r+1):
+#         if(c>=r):
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()   
+ 
+    
+# r = 5
+# for r in range(1,r+1):
+#     for c in range(1,r+1):
+#         if(c>=6-r):
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()  
+
+    
+# r = 5
+# for r in range(1,r+1):
+#     for c in range(1,r+1):
+#         if(c<=6-r):
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()                
+                      
+        
+ 
+
+       
+    
+        
+                
+
+
+        
     
          
         
