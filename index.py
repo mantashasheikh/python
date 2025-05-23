@@ -414,17 +414,17 @@
 
 # electricity bill
 
-# unit = int(input("enter a unit:"))
-# if(unit>0 and unit<=50):
-#     print("rupees per unit:", unit*5)
-# elif(unit>50 and unit<=100):
-#     print("rupees per unit:", unit*10-250)
-# elif(unit>100 and unit<=150):
-#     print("rupees per unit:", unit*20-1000-250)
-# elif(unit>150):
-#     print("rupees per unit:", unit*30-3000-1000-250)
-# else:
-#     print("invalid unit")
+unit = int(input("enter a unit:"))
+if(unit>0 and unit<=50):
+    print("rupees per unit:", unit*5)
+elif(unit>50 and unit<=100):
+    print("rupees per unit:", unit*10-250)
+elif(unit>100 and unit<=150):
+    print("rupees per unit:", unit*20-1000-250)
+elif(unit>150):
+    print("rupees per unit:", unit*30-3000-1000-250)
+else:
+    print("invalid unit")
     
 
 # create a calculator
@@ -536,7 +536,50 @@ print(mx)
 #             print("*",end=" ")
 #         else:
 #             print(" ",end=" ")
-#     print()                
+#     print() 
+
+# write a program to print factorial of a number
+# def factorial():
+#     a = int(input("enter a number: "))
+#     ans = 1
+#     for i in range(1,a+1):
+#         ans*=i
+#     print(ans)
+# factorial()
+# factorial() 
+
+# write a program to print sum of n natural number
+# def natural_no():
+#     n = int(input("enter a number"))
+#     for i in range(1, n+1):
+#         print(i)
+# natural_no()
+# natural_no() 
+
+
+# write a program to print fibonacci series
+# def fibonacci():
+#     f = int(input("enter a number:"))
+#     fi = 0
+#     se = 1
+    
+#     for i in range(0,f):
+#         if(i==0):
+#             print(fi)
+#             continue
+#         elif(i==1):
+#             print(se)
+#             continue 
+#         else:
+#             nx = fi +se
+#             fi = se
+#             se = nx
+#             print(nx)
+# fibonacci()        
+    
+       
+
+               
                       
         
  

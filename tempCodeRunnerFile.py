@@ -1,6 +1,7 @@
-li = [110,24,34,56,4287.76]
-mx = li[0]
-for i in range(len(li)):
-    if mx>li[i]:
-        mx=li[i]
-print(mx) 
+
+    print("rupees per unit:", unit*10-250)
+elif(unit>100 and unit<=150):
+    print("rupees per unit:", unit*20-1000-250)
+elif(unit>150):
+    print("rupees per unit:", unit*30-3000-1000-250)
+else:

@@ -243,6 +243,7 @@
 # a = float(input("Enter side a: "))
 # b = float(input("Enter side b: "))
 # c = float(input("Enter side c: "))
+
 # if a <= 0 or b <= 0 or c <= 0:
 #     print("Invalid triangle: sides must be greater than zero.")
 # else:
@@ -259,52 +260,62 @@
         
 
 # 17. write a program to calculate profit or loss
-cost_price = float(input("Enter the Cost Price (CP): "))
-selling_price = float(input("Enter the Selling Price (SP): "))
+# cost_price = float(input("Enter the Cost Price (CP): "))
+# selling_price = float(input("Enter the Selling Price (SP): "))
 
-if selling_price > cost_price:
-    profit = selling_price - cost_price
-    print(f"Profit = ₹{profit:.2f}")
-elif cost_price > selling_price:
-    loss = cost_price - selling_price
-    print(f"Loss = ₹{loss:.2f}")
-else:
-    print("No Profit No Loss.")
+# if selling_price > cost_price:
+#     profit = selling_price - cost_price
+#     print(f"Profit = ₹{profit:.2f}")
+# elif cost_price > selling_price:
+#     loss = cost_price - selling_price
+#     print(f"Loss = ₹{loss:.2f}")
+# else:
+#     print("No Profit No Loss.")
     
 
 
 # 18. Write a  program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
-physics = float(input("Enter marks in Physics: "))
-chemistry = float(input("Enter marks in Chemistry: "))
-biology = float(input("Enter marks in Biology: "))
-mathematics = float(input("Enter marks in Mathematics: "))
-computer = float(input("Enter marks in Computer: "))
+# physics = float(input("Enter marks in Physics: "))
+# chemistry = float(input("Enter marks in Chemistry: "))
+# biology = float(input("Enter marks in Biology: "))
+# mathematics = float(input("Enter marks in Mathematics: "))
+# computer = float(input("Enter marks in Computer: "))
 
-total_marks = physics + chemistry + biology + mathematics + computer
-percentage = (total_marks / 500) * 100
+# total_marks = physics + chemistry + biology + mathematics + computer
+# percentage = (total_marks / 500) * 100
 
-print(f"Total Marks: {total_marks}/500")
-print(f"Percentage: {percentage:.2f}%")
+# print(f"Total Marks: {total_marks}/500")
+# print(f"Percentage: {percentage:.2f}%")
 
-if percentage >= 90:
-    grade = "A"
-elif percentage >= 80:
-    grade = "B"
-elif percentage >= 70:
-    grade = "C"
-elif percentage >= 60:
-    grade = "D"
-elif percentage >= 40:
-    grade = "E"
+# if percentage >= 90:
+#     grade = "A"
+# elif percentage >= 80:
+#     grade = "B"
+# elif percentage >= 70:
+#     grade = "C"
+# elif percentage >= 60:
+#     grade = "D"
+# elif percentage >= 40:
+#     grade = "E"
+# else:
+#     grade = "F"
+
+# print(f"Grade: {grade}")
+
+
+
+# 20. Write a  program to input electricity unit charges and calculate total electricity bill according to the given condition:
+unit = int(input("enter a unit:"))
+if(unit>0 and unit<=50):
+    print("rupees per unit:", unit*0.50)
+elif(unit>50 and unit<=100):
+    print("rupees per unit:", unit*0.75-25)
+elif(unit>100 and unit<=150):
+    print("rupees per unit:", unit*1.20-75-250)
+elif(unit>150):
+    print("rupees per unit:", unit*1.50-180-1000-250)
 else:
-    grade = "F"
-
-print(f"Grade: {grade}")
-
-
-
-# 
- 
+    print("invalid unit")
         
         
          
