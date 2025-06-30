@@ -1,6 +1,4 @@
-alpha = input("enter a alphabet:")
-# if(alpha=='a'or alpha=='e' or alpha=='i'or alpha=='o'or alpha=='u'or alpha=='A'or alpha=='E'or alpha=='I'or alpha=='O'or alpha=='U'):
-#     print(alpha, " : is a vowel")
-# else:
-#     print(alpha, " : is a consonant")
-    
+def student_data(name,rollno):
+#     print(f"The student name is {name} and the roll number is {rollno}")
+
+# student_data(rollno = 101,name="jatin")

@@ -414,17 +414,17 @@
 
 # electricity bill
 
-unit = int(input("enter a unit:"))
-if(unit>0 and unit<=50):
-    print("rupees per unit:", unit*5)
-elif(unit>50 and unit<=100):
-    print("rupees per unit:", unit*10-250)
-elif(unit>100 and unit<=150):
-    print("rupees per unit:", unit*20-1000-250)
-elif(unit>150):
-    print("rupees per unit:", unit*30-3000-1000-250)
-else:
-    print("invalid unit")
+# unit = int(input("enter a unit:"))
+# if(unit>0 and unit<=50):
+#     print("rupees per unit:", unit*5)
+# elif(unit>50 and unit<=100):
+#     print("rupees per unit:", unit*10-250)
+# elif(unit>100 and unit<=150):
+#     print("rupees per unit:", unit*20-1000-250)
+# elif(unit>150):
+#     print("rupees per unit:", unit*30-3000-1000-250)
+# else:
+#     print("invalid unit")
     
 
 # create a calculator
@@ -473,12 +473,12 @@ else:
 #     print(i)
 #     i=i+1
     
-li = [110,24,34,56,4287.76]
-mx = li[0]
-for i in range(len(li)):
-    if mx>li[i]:
-        mx=li[i]
-print(mx) 
+# li = [110,24,34,56,4287.76]
+# mx = li[0]
+# for i in range(len(li)):
+#     if mx>li[i]:
+#         mx=li[i]
+# print(mx) 
 
 
 # write a fibonacci series
@@ -577,7 +577,23 @@ print(mx)
 #             print(nx)
 # fibonacci()        
     
-       
+    
+    
+# variable length argument
+def sum(*a):
+    ans=0
+    for i in a:
+        ans+=i
+        print(ans)
+sum(1,2,3,4) 
+
+
+
+# keyword variable length argument
+def view_data(**kwarg):
+    print(kwarg)
+    
+view_data("name":"raj")      
 
                
                       

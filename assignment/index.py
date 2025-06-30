@@ -305,18 +305,111 @@
 
 
 # 20. Write a  program to input electricity unit charges and calculate total electricity bill according to the given condition:
-unit = int(input("enter a unit:"))
-if(unit>0 and unit<=50):
-    print("rupees per unit:", unit*0.50)
-elif(unit>50 and unit<=100):
-    print("rupees per unit:", unit*0.75-25)
-elif(unit>100 and unit<=150):
-    print("rupees per unit:", unit*1.20-75-250)
-elif(unit>150):
-    print("rupees per unit:", unit*1.50-180-1000-250)
-else:
-    print("invalid unit")
+# unit = int(input("enter a unit:"))
+# if(unit>0 and unit<=50):
+#     print("rupees per unit:", unit*0.50)
+# elif(unit>50 and unit<=100):
+#     print("rupees per unit:", unit*0.75-25)
+# elif(unit>100 and unit<=150):
+#     print("rupees per unit:", unit*1.20-75-250)
+# elif(unit>150):
+#     print("rupees per unit:", unit*1.50-180-1000-250)
+# else:
+#     print("invalid unit")
+
+
+
+# no return without arument
+#
         
+        
+# no return with argument  
+# def perfect_number(a):
+#     ans = 0
+#     for i in range(1,int(num**0)+1):
+#         if num%i==0:
+#             ans+=i
+#     if ans==num:
+#         print("perfect number")
+#     else:
+#         print("no a perfect number")
+        
+# num = int(input("enter a number:"))        
+# perfect_number(num) 
+
+
+# positional argument
+
+# def student_data(name,rollno):
+#     print(f"The student name is {name} and the roll number is {rollno}")
+
+# student_data("jatin",101)
+
+
+# keword argument
+# def student_data(name,rollno):
+#     print(f"The student name is {name} and the roll number is {rollno}")
+
+# student_data(rollno = 101,name="jatin")
+
+#implement a grading systembased on user input marks
+marks = int(input("enter a marks: "))
+if(marks>=80 and marks<=100):
+    print("A")
+elif(marks>=60 and marks<80):
+    print("B") 
+elif(marks>=40 and marks<60):
+    print("C")
+elif(marks>=0 and marks<40):
+    print("D")
+else:
+    print("E")
+    
+# check if a number is even or odd usingan if-else statement
+num = int(input("enter a number:"))
+if(num%2==0):
+    print(num, ": is even")
+else:
+    print(num , ": is odd")  
+    
+#write a program to find the largest of three numbers
+num1 = 34
+num2 = 45
+num3 = 24
+if (num1>num2 and num2>num3):
+    print(num1, ": is largest")
+elif(num2>num3 and num2>num1):
+    print(num2 , ":is largest")
+else:
+    print(num3, ":is largest") 
+
+#implement  a program to check if a year is a leap year
+year = int(input("enter a year"))
+if(year%400==0) or (year%4==0 and year%100!=0):
+    print(year, ":is a leap year")
+else:
+    print(year, ":is not a leap year") 
+    
+#write a program to  determine the eligibility to vote based on age
+age = int(input("enter a age:"))
+if(age>=18):
+    print("eligible for vote")
+else:
+    print("not eligible for vote")
+
+# create a program to check if a character is vowel or consonent
+char = input("enter a character")
+if char in "aeiouAEIOU": 
+    print(char , ":is vowel") 
+else:
+    print(char , ":is consonent")                   
+    
+              
+s="suraj"
+print("z" in s)
+                   
+ 
+                
         
          
 
