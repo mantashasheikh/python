@@ -49,7 +49,65 @@ celcius = 45
 fahrenheit = (celcius*9/5)+32
 print(fahrenheit)
 
-#write a program to calculate the sum of squares of the first N natural numbers
+#string
+print("hello world")
+print('hello world')
 
+str = "hello, world!"
+print(str[1])
 
+for x in "banana":
+    print(x)
+    
+string = "mantasha sheikh"
+print(len(string))
 
+txt = "I am a teacher of class 10th"
+print("class" in txt)
+print("she" in txt)
+
+text = "my name is mantasha sheikh"
+if "mantasha" in text:
+    print("true")
+else:
+    print("false")
+    
+print("mantasha" not in text)
+print("rimsha" not in text)
+
+word = " hello world! "
+print(word[2:5])
+print(word[:5])
+print(word[2:])
+print(word[-5:-2])
+
+print(word.upper())
+print(word.lower())
+print(word.strip())
+print(word.replace("h", "J"))    
+print(word.split(","))
+
+str1 = "max"
+str2 = "well"
+str3 = str1+str2
+print(str3)    
+
+str4 = str1+" "+str2
+print(str4)  
+
+age = 36
+print( f"my name is john, I am {age}")
+
+price = 59
+print(f"the price is {price:.2f} dollar")
+
+print(f"The price is {20*59} dollars")
+
+t = "tony stark is a super hero . he is so powerful"
+print(t.capitalize())
+print(t.center(100))
+print(t.count("is"))
+print(t.endswith("powerful"))
+print(t.find("hero"))
+print(t.startswith("tony"))
+  
