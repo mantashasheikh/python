@@ -352,6 +352,9 @@
 
 # student_data(rollno = 101,name="jatin")
 
+
+# if -else
+
 #implement a grading systembased on user input marks
 marks = int(input("enter a marks: "))
 if(marks>=80 and marks<=100):
@@ -405,8 +408,7 @@ else:
     print(char , ":is consonent")                   
     
               
-s="suraj"
-print("z" in s)
+
                    
  
                 

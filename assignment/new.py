@@ -49,8 +49,7 @@ celcius = 45
 fahrenheit = (celcius*9/5)+32
 print(fahrenheit)
 
-
-
+#write a program to calculate the sum of squares of the first N natural numbers
 
 
 
