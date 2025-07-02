@@ -1,4 +1,5 @@
-def student_data(name,rollno):
-#     print(f"The student name is {name} and the roll number is {rollno}")
-
-# student_data(rollno = 101,name="jatin")
+N = 3
+sum = 0
+for n in range (1,N+1):
+    sum += n*n
+print(sum)

@@ -16,8 +16,8 @@ N = 1
 sum = 0
 while N<=5:
     sum= sum+N
-    print(sum)
     N+=1
+print(sum)
     
 #implement a program to find the all number divisile by 3 and 5 within a range
 n = 50
@@ -25,7 +25,37 @@ for i in range(1,n+1):
     if i%3==0 and i%5==0:
         print(i, ":is divisible by 3 and 5")
 
-#
+#write a program to calculate the sum of squares of the N natural number
+N = int(input("enter a number:"))
+sum = 0
+for n in range (1,N+1):
+    sum += n*n
+print(sum)
+
+#print the multiplication table  of a number
+N = int(input("enter a number:"))
+for i in range(1,10+1):
+    mul = i*N
+    print(mul)
+    
+#write a program to check if a number is a prime number
+N = int(input("enter a number:"))
+count = 0
+for i in range(1,N+1):
+  if(N%i==0):
+      count+=1
+if(count==2):
+    print(N,":is prime number")
+else:
+    print(N, ":is not a prime number")
+    
+#implement a program to reverse a number
+       
+
+       
+
+    
+
         
         
     

@@ -110,4 +110,10 @@ print(t.count("is"))
 print(t.endswith("powerful"))
 print(t.find("hero"))
 print(t.startswith("tony"))
+
+
+
+
+
+
   
