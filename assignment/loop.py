@@ -103,16 +103,15 @@
 #     print("It is not a palindrome") 
     
 # #print  all prime number within a range
-       
-        
-    
-    
-
-
-
-
-
-
+num = int(input("enter a number:"))
+for num in range(1,num+1):
+    if num>1:
+        for j in range(2,num):
+            if num%j==0:
+                break
+            else:
+                print(num) 
+            
 
 # #write a program to print LCM of two number
 # a = int(input("enter a number:"))
@@ -180,6 +179,8 @@
 #half pyramid  of
 # for r in range(1,6):
 #     for c in range(1,6):
+#         if(c<=r):
+            
         
         
 

@@ -133,7 +133,7 @@ print(bool([]))
 print(bool({}))
 
 
-#python list
+#python list[]
 thislist = ["apple","mango","banana","apple"]
 print(thislist)
 print(len(thislist))
@@ -226,7 +226,7 @@ list1.extend(list2)
 print(list1)    
 
 
-
+#python tuples
 
 
 
