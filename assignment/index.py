@@ -408,15 +408,108 @@
 #     print(char , ":is consonent") 
     
 
-i = 10
-while i>=1:
-    print(i,end=" ")
-    i=i-1 
+# i = 10
+# while i>=1:
+#     print(i,end=" ")
+#     i=i-1 
     
-start = int(input("enter a number:"))
-end = int(input("enter a number:"))
-for i  in range(start,end+1,-1):
-    print(i)  
+# start = int(input("enter a number:"))
+# end = int(input("enter a number:"))
+# for i  in range(start,end+1,-1):
+#     print(i)
+
+# li = [1,2,3,4]
+# for i in range(len(li)):
+#     print(li[i])
+
+
+
+# li = [2,5,4,6]
+# ans = 0
+# for i in li:
+#     ans = ans+i
+# print(ans)
+
+# print(sum(li))
+
+# li1 = [1,2,3]
+# mul = 1
+# for i in li1:
+#     mul = mul*i
+# print(mul)
+
+# li2 = [5,6,10,8,4]
+# large = 0
+# for i in li2:
+#     if(large<i):
+#         large=i
+# print(large)
+
+
+# li3 = [5,6,10,8,4]
+# small = 9
+# for i in li3:
+#     if(small>i):
+#         small=i
+# print(small)
+
+# find the smallest number in the list
+# li3 = [-1,-2,-6,-9,-4]
+# small = li[0]
+# for i in li3:
+#     if(small>i):
+#         small=i
+# print(small)
+
+# find the smallest number in the list
+# li3 = [-1,-2,-6,-9,-4]
+# small = li[0]
+# for i in li3:
+#     if(small<i):
+#         small=i
+# print(small)
+
+# count the element given by the user
+# list = [1,2,1,2,3,1]
+# user =int(input("enter a number:"))
+# ans = 0
+
+# for i in list:
+#     if(i==user):
+#         ans+=1
+# print(ans) 
+
+
+# display the indexing of element given by user
+list  = [1,2,3,5,4]
+user = int(input("enter a number"))
+for i in range(len(list)):
+    if(list[i]==user):
+        print(i)
+        
+# reverse a given list 
+        
+        
+        
+    
+    
+
+    
+       
+   
+    
+
+
+    
+
+
+
+
+    
+
+    
+    
+    
     
        
     

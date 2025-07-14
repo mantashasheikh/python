@@ -1,2 +1,3 @@
-for r in range(1,6):
-#     for c in range(1,6):
+list  = [1,2,3,5,4]
+# user = int(input("enter a number"))
+# for i in li:
