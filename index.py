@@ -580,20 +580,25 @@
     
     
 # variable length argument
-def sum(*a):
-    ans=0
-    for i in a:
-        ans+=i
-        print(ans)
-sum(1,2,3,4) 
+# def sum(*a):
+#     ans=0
+#     for i in a:
+#         ans+=i
+#         print(ans)
+# sum(1,2,3,4) 
 
 
 
 # keyword variable length argument
-def view_data(**kwarg):
-    print(kwarg)
+# def view_data(**kwarg):
+#     print(kwarg)
     
-view_data("name":"raj")      
+# view_data("name":"raj")      
+
+
+import Keyword
+x = Keyword.kwlist
+
 
                
                       
