@@ -7,12 +7,9 @@ for char in range(len(string)-1,-1,-1):
 s = "hello"
 reversed_s = ""
 for char in s:
-    reversed_s = char + reversed_s
+   reversed_s = char + reversed_s
 print(reversed_s)
 
-s = "ahad"
-reverse = s[::-1]
-print(reverse)
 
 s = "azeem"
 rev = "".join(reversed(s))
@@ -20,12 +17,12 @@ print(rev)
 
 
 # check the string is palindrome or not
-text = input("enter a text:")
-text2 = text[::-1]
-if(text == text2):
-    print("it is a palindrome")
-else:
-    print("it is not a palindrome") 
+# text = input("enter a text:")
+# text2 = text[::-1]
+# if(text == text2):
+#     print("it is a palindrome")
+# else:
+#     print("it is not a palindrome") 
 
     
 # count vowel in a string
@@ -42,9 +39,9 @@ no_space = text4.replace(" ","")
 print(no_space)
 
 
-s = "H e l l o   W o r l d"
-no_spaces = ''.join(s.split())
-print(no_spaces)
+# s = "H e l l o   W o r l d"
+# no_spaces = ''.join(s.split())
+# print(no_spaces)
 
 
 # convert the string to uppercase and lowercase
@@ -54,11 +51,11 @@ print(text5.lower())
 
 
 # find the length of the string without using len() function
-text6 = "I live in bhopal"
-count = 0
-for i in text6:
-  count+=1
-print("the length of the string is:",count)
+# text6 = "I live in bhopal"
+# count = 0
+# for i in text6:
+#   count+=1
+# print("the length of the string is:",count)
 
 # replace all occurence of the substring
 text7 = "mat cat"
@@ -66,6 +63,7 @@ x = text7.replace("t","p")
 print(x)
 
 # remove duplicate characters in the string
+
 
     
     
