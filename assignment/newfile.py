@@ -15,3 +15,26 @@ print(type(s))
 s4 = "this is a python class"
 res = s.split()
 print(res)
+
+res1 = s.split("i",2)
+print(res1)
+
+x = "a"
+print(ord(x))
+y = "A"
+print(ord(y))
+z = "0"
+print(ord((z)))
+space = " "
+print(ord(space))
+
+print(chr(1))
+print(chr(32))
+print(chr(48))
+print(chr(65))
+print(chr(97))
+
+
+
+
+
