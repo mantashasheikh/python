@@ -1,1 +1,1 @@
-print(chr(48))
+print(sum(li))
