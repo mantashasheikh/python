@@ -78,7 +78,56 @@ print(l3 is l4)
 
 
 # list methods
-l = [1,2,3,"python","java"]
+l = [2,4,"python","java","php",1,5,10,2,3]
+x = l.append(50)
+print(x)
+# print(l.append(50))
+# print(l)
+# x = 10
+# y = print(x)
+# print(y)
+
+# l.extend(2,4,6)
+l.extend("python")
+print(l)
+l.extend([1,2,3,4])
+print(l)
+l.extend((-1,-2,-3))
+print(l)
+x = l.copy()
+print(x)
+print(l)
+print(id(x),id(l))
+# l.clear()
+# print(l)
+# del l
+# print(l)
+print(l.count(2))
+print(l.index("python"))
+l.insert(0,"neeraj")
+print(l)
+l.insert(5,"mantasha")
+print(l)
+print(l.pop())
+print(l)
+print(l.pop(6))
+l.remove("python")
+print(l)
+l.reverse()
+print(l)
+# l.sort()
+# print(l)
+l1 = ["name","age","qualification"]
+l1.sort()
+l1.reverse()
+print(l1)
+
+l2 = [1,4,2,3,5]
+l2.sort(reverse=True)
+print(l2)
+
+
+
 
 
 
