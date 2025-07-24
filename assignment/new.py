@@ -223,10 +223,55 @@ print(list1)
 
 list5 = [12,23,34]
 list1.extend(list2)
-print(list1)    
+print(list1)  
+
+my_list1 = []
+my_list2 = list()
+print(my_list1)
+print(my_list2)
+my_list = list()
+my_list.append(10)
+print(my_list)
+my_list.extend([2,4,6])
+print(my_list)
+my_list.insert(1,"python")
+print(my_list)
+my_list[0] = 20
+print(my_list)
+my_list.pop(0)
+print(my_list)
+my_list.remove("python")
+print(my_list)
 
 
 #python tuples
+# python inbuilt function
+my_tuple = (2,4,6,8,"python","java")
+print(len(my_tuple))
+print(id(my_tuple))
+print(type(my_tuple))
+print(tuple())
+
+# print(min(my_tuple))
+# print(max(my_tuple))
+# print(sum(my_tuple))
+
+my_tuple1 = (2,4,3.5,8,6.98,6.5)
+print(min(my_tuple1))
+print(max(my_tuple1))
+print(sum(my_tuple1))
+
+# tuple inbuilt method
+t = (2,4,6,8,2,4,6)
+print(t.index(8))
+
+print(t.count(8))
+
+
+
+
+
+
 
 
 
