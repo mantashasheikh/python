@@ -271,6 +271,64 @@ print(t.count(8))
 
 
 
+# python dictionary
+my_dict = {'name':'Neeraj', 'age':37, 'qulification':'M.tech'}
+
+print(my_dict)
+print(type(my_dict))
+print(id(my_dict))
+print(len(my_dict))
+print(max(my_dict))
+print(min(my_dict))
+# print(sum(my_dict))
+print(dict())
+
+
+dict2 = {1:'neeraj', 2:37, 3:'mtech'}
+print(sum(dict2))
+
+# dict3 = {1:'neeraj', 2:37, '3':'mtech'}
+# print(min(dict3))
+# print(max(dict3))
+# print(sum(dict3))
+
+x = {}
+print(type(x))
+
+d = {'name':'neeraj', 'age':34, 'qualification':'Mtech'}
+print(d.keys())
+print(d.values())
+print(d.items())
+print(d)
+print(d.get('name'))
+
+d1 = {1:'python',2:'php'}
+d.update(d1)
+print(d)
+
+d.setdefault('name','rahul')
+print(d)
+
+d.setdefault('name1','rahul')
+print(d)
+
+l = ['name','age','city','contact']
+d = d.fromkeys(l)
+print(d)
+
+d['name'] = 'Neeraj'
+print(d)
+
+d.pop('age')
+print(d)
+
+d.popitem()
+print(d)
+
+d.copy()
+print(d)
+
+
 
 
 

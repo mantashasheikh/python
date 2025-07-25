@@ -1,1 +1,1 @@
-print(sum(li))
+print(sum(my_dict))
