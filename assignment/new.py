@@ -330,6 +330,48 @@ print(d)
 
 
 
+# python set
+# python inbuile=t function
+
+my_set = {2,4,"python","java","php",2,4,9}
+print(my_set)
+print(type(my_set))
+print(id(my_set))
+print(len(my_set))
+# print(min(my_set))
+# print(max(my_set))
+# print(sum(my_set))
+
+my_set2 = {"python","java","php"}
+print(max(my_set2))
+print(min(my_set2))
+
+my_set3 = {2,2.6,3,4.9}
+print(sum(my_set3))
+
+
+# mathematical operation on set
+s1 = {1,2,3,4,5}
+s2 = {4,5,6,7,8}
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.difference(s2))
+print(s1.symmetric_difference(s2))
+
+# s1.intersection_update(s2)
+# print(s1)
+# s1.difference_update(s2)
+# print(s1)
+# s1.symmetric_difference_update(s2)
+# print(s1)
+
+s3 = {1,2,3,4,5,6,7,8,9,10,11,12}
+s4 = {2,6,9,11}
+
+print(s3.isdisjoint(s4))
+print(s3.issubset(s4))
+print(s3.issuperset(s4))
+
 
 
 
