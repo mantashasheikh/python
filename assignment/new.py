@@ -372,6 +372,61 @@ print(s3.isdisjoint(s4))
 print(s3.issubset(s4))
 print(s3.issuperset(s4))
 
+s = set()
+s.add("python")
+print(s)
+
+# s.update("python")
+# print(s)
+
+# s.update(10,20,30,40)
+# print(s)
+# s.update("java","php")
+# print(s)
+# s.update("p","y","t","h","o","n")
+# print(s)
+s.update(["java","php"])
+print(s)
+print(s.pop())
+print(s)
+# s.remove("python")
+# print(s)
+# s.remove("neeraj")
+# print(s)
+s.discard("neeraj")
+print(s)
+
+s5 = s.copy()
+print(s5,s)
+print(id(s5),id(s))
+
+s.clear()
+print(s)
+
+
+# frozen set
+
+fs = frozenset()
+l = [2,4,8,10]
+fs = frozenset(l)
+print(fs)
+
+# typecasting
+x = 10
+y = str(x)
+print(y)
+print(type(y))
+
+
+
+
+
+
+
+
+
+
+
 
 
 
