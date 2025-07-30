@@ -412,12 +412,16 @@ fs = frozenset(l)
 print(fs)
 
 # typecasting
-x = 10
-y = str(x)
-print(y)
-print(type(y))
+# x = 10
+# y = str(x)
+# print(y)
+# print(type(y))
 
 
+r = (list(range(-1,-11,-1)))
+print(r)
+x = (list(range(-1,-1,-1)))
+print(x)
 
 
 
