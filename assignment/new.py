@@ -424,6 +424,25 @@ x = (list(range(-1,-1,-1)))
 print(x)
 
 
+# count the number of character in the string
+s = "neeraj"
+count = 0
+for _ in s:
+    count = count+1
+print(count)  
+
+# count the particular character in the string(let count 'e' from the string)
+s = "neeraj"
+count = 0
+target = 'e'
+for _ in s:
+    if _==target:
+        count=count+1
+print(count) 
+
+#  
+
+
 
 
 
