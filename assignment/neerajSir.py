@@ -1,212 +1,149 @@
-# #string
-# print("hello world")
-# print('hello world')
+# string method
 
-# str = "hello, world!"
-# print(str[1])
+s = "this is the python class"
+print(s.lower())
+print(s.upper())
+print(s.capitalize())
+print(s.title())
+print(s.index("p"))
+print(s.count("s"))
+print(s.find("P"))
+s1 = "python"
+s2 = "language"
+s3 = ' '.join([s1,s2])
+print(s3)
+print(type(s))
 
-# for x in "banana":
-#     print(x)
-    
-# string = "mantasha sheikh"
-# print(len(string))
+s4 = "this is a python class"
+res = s.split()
+print(res)
 
-# txt = "I am a teacher of class 10th"
-# print("class" in txt)
-# print("she" in txt)
+res1 = s.split("i",2)
+print(res1)
 
-# text = "my name is mantasha sheikh"
-# if "mantasha" in text:
-#     print("true")
-# else:
-#     print("false")
-    
-# print("mantasha" not in text)
-# print("rimsha" not in text)
+x = "a"
+print(ord(x))
+y = "A"
+print(ord(y))
+z = "0"
+print(ord((z)))
+space = " "
+print(ord(space))
 
-# word = " hello world! "
-# print(word[2:5])
-# print(word[:5])
-# print(word[2:])
-# print(word[-5:-2])
+print(chr(1))
+print(chr(32))
+print(chr(48))
+print(chr(65))
+print(chr(97))
 
-# print(word.upper())
-# print(word.lower())
-# print(word.strip())
-# print(word.replace("h", "J"))    
-# print(word.split(","))
+# list pyhton function
 
-# str1 = "max"
-# str2 = "well"
-# str3 = str1+str2
-# print(str3)    
+l = [1,2,"python","java"]
+print(l)
+print(len(l))
+print(type(l))
+print(id(l))
+print(list())
 
-# str4 = str1+" "+str2
-# print(str4)  
+li = ["Python","Java","php"]
+print(max(li))
+print(min(li))
+# print(sum(li))
 
-# age = 36
-# print( f"my name is john, I am {age}")
+li2 = [10,20,10.5,10+5j]
+print(sum(li2))
+# print(max(li2))
+# print(min(li2))
 
-# price = 59
-# print(f"the price is {price:.2f} dollar")
-
-# print(f"The price is {20*59} dollars")
-
-# t = "tony stark is a super hero . he is so powerful"
-# print(t.capitalize())
-# print(t.center(100))
-# print(t.count("is"))
-# print(t.endswith("powerful"))
-# print(t.find("hero"))
-# print(t.startswith("tony"))
-
-
-# #python booleans
-# print(10>2)
-# print(10==9)
-# print(10<9)
+li3 = [23,20.4,50,6.10]
+print(max(li3))
+print(min(li3))
 
 
-# print(bool("hello"))
-# print(bool(15))
-# print(bool(["apple","mango","banana"]))
 
-# print(bool(False))
-# print(bool(None))
-# print(bool(0))
-# print(bool(()))
-# print(bool(""))
-# print(bool([]))
-# print(bool({}))
+# operators
+l1 = [1,2,3,4,"python"]
+l2 = ["java"]
+print(l1+l2) #concatination
+l1 = [1,2,3,4,"python"]
+l2 = ["java"]
+# print(l1-l2)
+# print(l1*l2)
+print(l1*3) #repeatation
+print(4 in l1)
+l3 = [1,2,3,4]
+l4 = [1,2,3,4]
+print(l3 == l4)
+print(l3 is l4)
 
 
-# #python list[]
-# thislist = ["apple","mango","banana","apple"]
-# print(thislist)
-# print(len(thislist))
-# print(type(thislist))
+# list methods
+l = [2,4,"python","java","php",1,5,10,2,3]
+x = l.append(50)
+print(x)
+# print(l.append(50))
+# print(l)
+# x = 10
+# y = print(x)
+# print(y)
 
-# print(thislist[1])
-# print(thislist[-1])
-# print(thislist[1:4])
-# print(thislist[-4:-1])
+# l.extend(2,4,6)
+l.extend("python")
+print(l)
+l.extend([1,2,3,4])
+print(l)
+l.extend((-1,-2,-3))
+print(l)
+x = l.copy()
+print(x)
+print(l)
+print(id(x),id(l))
+# l.clear()
+# print(l)
+# del l
+# print(l)
+print(l.count(2))
+print(l.index("python"))
+l.insert(0,"neeraj")
+print(l)
+l.insert(5,"mantasha")
+print(l)
+print(l.pop())
+print(l)
+print(l.pop(6))
+l.remove("python")
+print(l)
+l.reverse()
+print(l)
+# l.sort()
+# print(l)
+l1 = ["name","age","qualification"]
+l1.sort()
+l1.reverse()
+print(l1)
 
-# if "apple" in thislist:
-#     print("yes, apple is present in thislist")
-
-# thislist[1] = "blackcurrent"
-# print(thislist)   
-
-# thislist[1:3] = ["blackcurrent","watermelon"]
-# print(thislist) 
-
-# thislist.insert(2,"watermelon")
-# print(thislist)
-
-# list = ["tomato","potato","brinjal","ladyfinger"]
-# print(len(list))
-# list.append("pumpkin")
-# print(list)
-# print(len(list))
-
-# list.insert(1,"onion")
-# print(list)
-# print(len(list))
-
-# thislist = ["apple","mango","banana"]
-# tropical = ["cherry","pineapple","papaya"]
-# thislist.extend(tropical)
-# print(thislist)
-
-# thistuple = ("kiwi","orange")
-# thislist.extend(thistuple)
-# print(thislist)
-
-# list.remove("brinjal")
-# print(list)
-
-# list.pop(1)
-# print(list)
-
-# del list[0]
-# print(list)
-
-# del list
-# print(list)
-
-# name = ["mantasha","rimsha","umra","iqra","bushra"]
-# name.clear()
-# print(name)
-
-# name = ["mantasha","rimsha","umra","iqra","bushra"]
-# name.sort()
-# print(name)
-
-# name.sort(reverse=True)
-# print(name)
-
-# city = ["Bhopal","delhi","Mumbai","Kolkata"]
-# city.sort()
-# print(city)
-
-# city.reverse()
-# print(city)
-
-# mylist = city.copy()
-# print(mylist)
-
-# mylist = list(name)
-# print(mylist)
-
-# list1 = ["a","b","c"]
-# list2 = [1,2,3]
-# list3 = list1 +list2
-# print(list3)
-
-# list4 = [7,8,9]
-# for x in list4:
-#     list1.append(x)
-# print(list1)
-
-# list5 = [12,23,34]
-# list1.extend(list2)
-# print(list1)  
-
-# my_list1 = []
-# my_list2 = list()
-# print(my_list1)
-# print(my_list2)
-# my_list = list()
-# my_list.append(10)
-# print(my_list)
-# my_list.extend([2,4,6])
-# print(my_list)
-# my_list.insert(1,"python")
-# print(my_list)
-# my_list[0] = 20
-# print(my_list)
-# my_list.pop(0)
-# print(my_list)
-# my_list.remove("python")
-# print(my_list)
+l2 = [1,4,2,3,5]
+l2.sort(reverse=True)
+print(l2)
 
 
 # #python tuples
 # # python inbuilt function
-# my_tuple = (2,4,6,8,"python","java")
+my_tuple = (2,4,6,8,"python","java")
 # print(len(my_tuple))
 # print(id(my_tuple))
 # print(type(my_tuple))
 # print(tuple())
 
-# # print(min(my_tuple))
-# # print(max(my_tuple))
-# # print(sum(my_tuple))
+print(min(my_tuple))
+print(max(my_tuple))
+print(sum(my_tuple))
 
-# my_tuple1 = (2,4,3.5,8,6.98,6.5)
-# print(min(my_tuple1))
-# print(max(my_tuple1))
-# print(sum(my_tuple1))
+my_tuple1 = (2,4,3.5,8,6.98,6.5)
+print(min(my_tuple1))
+print(max(my_tuple1))
+print(sum(my_tuple1))
+
 
 # # tuple inbuilt method
 # t = (2,4,6,8,2,4,6)
@@ -407,19 +344,6 @@
     
     
 # #  
-
-# print("string")
-# print(input("enter a string"))
-# print(len("Mantasha"))
-string = "Mantasha"
-string1 = "rimsha"
-print(max(string))
-print(min(string))
-print(type(string))
-print(id(string))
-print(list(string))
-print(sum(string1))
-string.
         
    
 
@@ -443,3 +367,15 @@ string.
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
