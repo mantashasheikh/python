@@ -452,7 +452,7 @@
 s1 = "pop"
 reverse = " "
 for i in range(len(s1)-1,-1,-1):
-    reverse = reverse +s1[i]
+    reverse = reverse + s1[i]
 if(s1 == reverse):
     print("palindrome")
 else:
