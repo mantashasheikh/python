@@ -83,6 +83,32 @@
 
 
 
+# convert the string into lower case
+# s = input("enter a string : ")
+# result = ''
+# for ch in s:
+#     if 'a' <= ch <= 'z':
+#         result += chr(ord(ch) - 32)
+#     else:
+#         result += ch
+# print(result)
+
+
+
+# remove spaces from the string
+s = input("enter a string : ")
+result = ''
+for ch in s:
+    if ch != ' ':
+        result += ch
+print(result)
+
+
+  
+
+
+
+
 
 
 
