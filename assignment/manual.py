@@ -1,3 +1,6 @@
+# string
+
+
 # # count the number of character in the string/length of string
 # s = input("enter a string : ")
 # count = 0
@@ -129,7 +132,7 @@
 
 
 
-
+# find out the frequency of each character in string
 # s = input("enter a string : ")
 # freq = {}
 # for ch in s:
@@ -140,19 +143,77 @@
 # print(freq) 
 
 
-s = input("enter a string : ")
-first_ch = s[0]
-ascii_val = ord(first_ch)
-if(ascii_val >= 97 and ascii_val<=122):
-    capital_ch = chr(ascii_val-32)
-else:
-    capital_ch = first_ch
-capitalized = capital_ch
-i=1
-while i<len(s):
-    capitalized+=s[i]
-    i+=1
-print(capitalized)       
+
+# capitalized the first letter of the string
+# s = input("enter a string : ")
+# first_ch = s[0]
+# ascii_val = ord(first_ch)
+# if(ascii_val >= 97 and ascii_val<=122):
+#     capital_ch = chr(ascii_val-32)
+# else:
+#     capital_ch = first_ch
+# capitalized = capital_ch
+# i=1
+# while i<len(s):
+#     capitalized+=s[i]
+#     i+=1
+# print(capitalized) 
+
+
+
+
+# list
+
+
+# find the length of the list
+# l = [1, 2.5, 'mantasha', 4.5+3j, 'rimsha'] 
+# count = 0
+# for i in l:
+#     count+=1
+# print(count) 
+
+
+
+# find the sum of each element of the list
+# l = [1, 3, 5, 2.6, 7.8]
+# sum = 0
+# for i in l:
+#     sum+=i
+# print(sum)
+
+
+
+
+# find the maximum element element from the list
+# l = [2, 5, 6.8, 7.5, 7, 2.5, 55, 154235]
+# max = 0
+# for i in range(0,len(l)) :
+#     if l[i]>max:
+#         max = l[i]
+# print("the maximum number in the list : ",max)
+
+
+
+
+# find the minimum number from the list
+# l = [2, 5, 6.8, 7.5, 7, 2.5,1.5,]
+# min = 9
+# for i in range(0,len(l)) :
+#     if l[i]<min:
+#         min = l[i]
+# print("the minimum number in the list : ",min)
+
+
+
+
+# count  how many times the particular element occur in the list
+l =  ['a','b','a',2,4,2,2,'a',]
+count = 0
+for i in range(0,)
+    
+   
+
+
 
 
     
