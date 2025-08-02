@@ -96,12 +96,71 @@
 
 
 # remove spaces from the string
+# s = input("enter a string : ")
+# result = ''
+# for ch in s:
+#     if ch != ' ':
+#         result += ch
+# print(result)
+
+
+# replace character from the string
+# s = input("enter a string : ")
+# old_chr = 'a'
+# new_chr = "x"
+# result = ''
+# for ch in s:
+#     if ch == old_chr :
+#         result += new_chr
+#     else:
+#         result += ch
+# print(result)
+
+
+
+# remove vowel from the String
+# s = input("enter a string : ")
+# result = ''
+# vowel ="aeiouAEIOU"
+# for ch  in s:
+#     if ch not in vowel:
+#         result+=ch
+# print(result)
+
+
+
+
+# s = input("enter a string : ")
+# freq = {}
+# for ch in s:
+#     if ch in freq:
+#         freq[ch] += 1
+#     else:
+#         freq[ch] = 1
+# print(freq) 
+
+
 s = input("enter a string : ")
-result = ''
-for ch in s:
-    if ch != ' ':
-        result += ch
-print(result)
+first_ch = s[0]
+ascii_val = ord(first_ch)
+if(ascii_val >= 97 and ascii_val<=122):
+    capital_ch = chr(ascii_val-32)
+else:
+    capital_ch = first_ch
+capitalized = capital_ch
+i=1
+while i<len(s):
+    capitalized+=s[i]
+    i+=1
+print(capitalized)       
+
+
+    
+    
+    
+
+
+ 
 
 
   
