@@ -207,9 +207,40 @@
 
 
 # count  how many times the particular element occur in the list
-l =  ['a','b','a',2,4,2,2,'a',]
-count = 0
-for i in range(0,)
+# l =  ['a','b','a', 2 , 4 , 2 , 2 ,'a']
+# count = 0
+# char = 'a'
+# for i in range(0,len(l)):
+#     if l[i]==char:
+#         count+=1
+# print(count) 
+
+
+
+# reverse a list
+# l =  [1,2,3,4,5]
+# print(l[::-1])
+
+# l = [1,2,3,4,5]             #error
+# rev = [] 
+# for i in range(len(l)-1,-1,-1):
+#     rev = rev+l[i]
+# print(rev)
+
+
+l = [1,2,3,4,5] 
+rev = []
+for i in range(len(l)-1,-1,-1):
+    rev += l[i]
+print(rev)
+
+
+
+
+    
+
+        
+    
     
    
 
