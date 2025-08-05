@@ -222,23 +222,37 @@
 # print(l[::-1])
 
 # l = [1,2,3,4,5]             #error
-# rev = [] 
+# rev = []
 # for i in range(len(l)-1,-1,-1):
-#     rev = rev+l[i]
+#     x = l[i]
+#     rev.append(x)
 # print(rev)
+
+# s = "This is python class"
+# s1=''
+# # l = len(s)
+# for i in range(len(s)-1,-1,-1):
+#     # print(s[i])
+#     s1+=s[i]
+# print(s1)
+
+
+s = "This is python class"
+s1=''
+for i in range(len(s)-1,-1,-1):
+    s1 = ''.join((s1,s[i]))
+print(s1)
 
 
 
 
 # check the given list is palindrome or not
-l =  [1,0,1]
-rev = (l[::-1])
-if l==rev:
-    print("palindrome")
-else:
-    print("not a palindrome")    
-
-
+# l =  [1,0,1]
+# rev = (l[::-1])
+# if l==rev:
+#     print("palindrome")
+# else:
+#     print("not a palindrome")    
 
 
 
@@ -254,9 +268,20 @@ else:
 
 
 
-         
+  
+# def count_words(s):
+#     count = 0
+#     in_word = False
+#     for ch in s:
+#         if ch != ' ' and not in_word:
+#             count += 1
+#             in_word = True
+#         elif ch == ' ':
+#             in_word = False
+#     return count       
 
-
+# s = "Tis is python class"
+# print(count_words(s))
 
 
 
