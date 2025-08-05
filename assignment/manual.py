@@ -40,11 +40,17 @@
 # reverse_s = ""
 # for i in range(len(s)-1,-1,-1):
 #     reverse_s = reverse_s+s[i]
-# print(reverse_s) 
+# print(reverse_s)
+
+# s = "This is python class"
+# s1=''
+# for i in range(len(s)-1,-1,-1):
+#     s1 = ''.join((s1,s[i]))
+# print(s1)
 
 
 
-# reverse a number /integer
+ # reverse a number /integer
 # num = int(input("enter a number : "))
 # rev = 0
 # while num>0:
@@ -52,6 +58,8 @@
 #     rev = rev*10+last_digit
 #     num//=10
 # print(rev) 
+
+
    
 
 
@@ -86,7 +94,7 @@
 
 
 
-# convert the string into lower case
+# convert the string into upper case
 # s = input("enter a string : ")
 # result = ''
 # for ch in s:
@@ -107,6 +115,23 @@
 # print(result)
 
 
+
+# count the word from the given string
+# s = "This is python class."
+# count = 0
+# in_word = False
+# for ch in s:
+#     if ch != ' ' and not in_word:
+#         count += 1
+#         in_word = True
+#     elif ch == ' ':
+#          in_word = False
+# print(count)      
+
+
+
+
+
 # replace character from the string
 # s = input("enter a string : ")
 # old_chr = 'a'
@@ -121,6 +146,17 @@
 
 
 
+
+# find substring from the given string
+# s = "neeraj sir"
+# s1 = "raj"
+# if s1 in s:
+#    print(s1, " is the substring of the given string")
+# else:
+#     print(s1, " is not a substring of the given string")   
+
+
+
 # remove vowel from the String
 # s = input("enter a string : ")
 # result = ''
@@ -132,8 +168,35 @@
 
 
 
-# find out the frequency of each character in string
+# count the unique character in string
 # s = input("enter a string : ")
+# unique = " "
+# count = 0 
+# for i in range(0,len(s)):
+#     if s[i] not in unique:
+#         unique+=s[i]
+#         count+=1
+# print(unique)
+# print(count, " character are unique") 
+
+
+
+s = input("enter a string:")
+result = ''
+for ch in s:
+    exists = False
+    for r in result:
+        if ch == r:
+            exists = True
+            break
+        if not exists:
+            result += ch
+print(result)    
+       
+    
+
+# find out the frequency of each character in string
+# s =  input("enter a string : ")
 # freq = {}
 # for ch in s:
 #     if ch in freq:
@@ -221,28 +284,12 @@
 # l =  [1,2,3,4,5]
 # print(l[::-1])
 
-# l = [1,2,3,4,5]             #error
+# l = [1,2,3,4,5]            
 # rev = []
 # for i in range(len(l)-1,-1,-1):
 #     x = l[i]
 #     rev.append(x)
 # print(rev)
-
-# s = "This is python class"
-# s1=''
-# # l = len(s)
-# for i in range(len(s)-1,-1,-1):
-#     # print(s[i])
-#     s1+=s[i]
-# print(s1)
-
-
-s = "This is python class"
-s1=''
-for i in range(len(s)-1,-1,-1):
-    s1 = ''.join((s1,s[i]))
-print(s1)
-
 
 
 
@@ -280,7 +327,7 @@ print(s1)
 #             in_word = False
 #     return count       
 
-# s = "Tis is python class"
+# s = "This is python class"
 # print(count_words(s))
 
 
