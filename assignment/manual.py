@@ -303,18 +303,16 @@
 
 
 # remove duplicate value from the list
-l = ['a','b','a',2,5,2,6,'a']
-unique = []
-count = 0 
-for i in range(0,len(l)):
-    if l[i] not in unique:
-        unique.append(l[i])
-        count+=1
-print(unique)
-print(count, " character are unique") 
+# l = ['a','b','a',2,5,2,6,'a']
+# unique = []
+# count = 0 
+# for i in range(0,len(l)):
+#     if l[i] not in unique:
+#         unique.append(l[i])
+#         count+=1
+# print(unique)
+# print(count, " character are unique")
    
-
-
 
 
 # sort the list
@@ -323,25 +321,55 @@ print(count, " character are unique")
 #     for j in range(i+1,len(l)):
 #         if l[i] > l[j]:
 #             l[i],l[j] = l[j],l[i]
-# print(l)   
+# print(l)  
+
+
+
+# merge two list
+l1 = ['mantasha','kumkum']
+l2 = [1,2,3] 
+for i in range(0,len(l2)):
+    l1.append(l2[i])
+print(l1)    
+    
+# l1.append(l2)
+# print(l1)
+
+
+
+# find the second maximum element from the list
+# l = [1,4,3,7,2,5]
+# max = l[0]
+# for i in l:
+#     if i>max:
+#         max = i
+        
+        
+        
+
+
+
+l = [2,1,5,4,7,6,3] 
+for i in range(len(l)):
+    for j in range(i+1,len(l)):
+        if l[i] > l[j]:
+            l[i],l[j] = l[j],l[i]
+sec_max = 0
+for m in range(len(l)-1):
+    sec_max = l[m]
+print(sec_max)         
+       
+        
+
+
+
+
 
 
 
 
   
-# def count_words(s):
-#     count = 0
-#     in_word = False
-#     for ch in s:
-#         if ch != ' ' and not in_word:
-#             count += 1
-#             in_word = True
-#         elif ch == ' ':
-#             in_word = False
-#     return count       
 
-# s = "This is python class"
-# print(count_words(s))
 
 
 
