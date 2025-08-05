@@ -179,19 +179,17 @@
 # print(unique)
 # print(count, " character are unique") 
 
-
-
-s = input("enter a string:")
-result = ''
-for ch in s:
-    exists = False
-    for r in result:
-        if ch == r:
-            exists = True
-            break
-        if not exists:
-            result += ch
-print(result)    
+# s = input("enter a string:")
+# result = ''
+# for ch in s:
+#     exists = False
+#     for r in result:
+#         if ch == r:
+#             exists = True
+#             break
+#         if not exists:
+#             result += ch
+# print(result)    
        
     
 
@@ -299,7 +297,22 @@ print(result)
 # if l==rev:
 #     print("palindrome")
 # else:
-#     print("not a palindrome")    
+#     print("not a palindrome") 
+
+
+
+
+# remove duplicate value from the list
+l = ['a','b','a',2,5,2,6,'a']
+unique = []
+count = 0 
+for i in range(0,len(l)):
+    if l[i] not in unique:
+        unique.append(l[i])
+        count+=1
+print(unique)
+print(count, " character are unique") 
+   
 
 
 
