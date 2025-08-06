@@ -344,20 +344,66 @@ print(l1)
 #     if i>max:
 #         max = i
         
+# l = [2,1,5,4,7,6,3] 
+# for i in range(len(l)):
+#     for j in range(i+1,len(l)):
+#         if l[i] > l[j]:
+#             l[i],l[j] = l[j],l[i]
+# sec_max = 0
+# for m in range(len(l)-1):
+#     sec_max = l[m]
+# print(sec_max) 
+
+
+
+# find the common element from the lists
+l1 = [1,2,3,4,5]
+l2 = [7,6,5,4,3]
+common =  []
+for i in l1:
+    for j in l2:
+        if i==j:
+            common.append(i)
+print(common, " these are the common elements of both list") 
+
+
+
+
+# split even and odd element from the list
+l = [1,2,3,4,5,6,7]
+even = []
+odd = []
+for i in l:
+     if i % 2 == 0:
+         even.append(i)
+     else:
+         odd.append(i)
+print("list of even element : ",even)
+print("list of odd element : ",odd) 
+
+
+
+
+
+            
+    
+            
+ 
+     
+
+
+
+           
+            
+            
+
+
+
+
+
+
+
         
-        
-
-
-
-l = [2,1,5,4,7,6,3] 
-for i in range(len(l)):
-    for j in range(i+1,len(l)):
-        if l[i] > l[j]:
-            l[i],l[j] = l[j],l[i]
-sec_max = 0
-for m in range(len(l)-1):
-    sec_max = l[m]
-print(sec_max)         
        
         
 
