@@ -326,11 +326,11 @@
 
 
 # merge two list
-l1 = ['mantasha','kumkum']
-l2 = [1,2,3] 
-for i in range(0,len(l2)):
-    l1.append(l2[i])
-print(l1)    
+# l1 = ['mantasha','kumkum']
+# l2 = [1,2,3] 
+# for i in range(0,len(l2)):
+#     l1.append(l2[i])
+# print(l1)    
     
 # l1.append(l2)
 # print(l1)
@@ -357,35 +357,54 @@ print(l1)
 
 
 # find the common element from the lists
-l1 = [1,2,3,4,5]
-l2 = [7,6,5,4,3]
-common =  []
-for i in l1:
-    for j in l2:
-        if i==j:
-            common.append(i)
-print(common, " these are the common elements of both list") 
+# l1 = [1,2,3,4,5]
+# l2 = [7,6,5,4,3]
+# common =  []
+# for i in l1:
+#     for j in l2:
+#         if i==j:
+#             common.append(i)
+# print(common, " these are the common elements of both list") 
 
 
 
 
 # split even and odd element from the list
-l = [1,2,3,4,5,6,7]
-even = []
-odd = []
-for i in l:
-     if i % 2 == 0:
-         even.append(i)
-     else:
-         odd.append(i)
-print("list of even element : ",even)
-print("list of odd element : ",odd) 
+# l = [1,2,3,4,5,6,7]
+# even = []
+# odd = []
+# for i in l:
+#      if i % 2 == 0:
+#          even.append(i)
+#      else:
+#          odd.append(i)
+# print("list of even element : ",even)
+# print("list of odd element : ",odd) 
 
 
 
 
+# convert the list into string
+# l = ['1','2','3','4','5','6']
+# s = ""
+# for i in range(len(l)):
+#    s = "".join((s,l[i]))
+# print(s)  
 
-            
+
+
+
+# convert the string into list
+s =  "12345"
+l = []
+for i in range(len(s)):
+    l.append(s[i])
+print(l)   
+
+
+
+
+  
     
             
  
