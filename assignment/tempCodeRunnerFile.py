@@ -1,1 +1,1 @@
-print(t[::-1])
+check the lists are equal or not

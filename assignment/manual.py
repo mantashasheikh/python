@@ -376,6 +376,23 @@
 
 
 
+# check the lists are equal or not
+# l1 = [1,2,3,4,5]
+# l2 = [7,6,5,4,3]
+# for i in l1:
+#     x = i
+# for j in l2:
+#     y = j
+# if(x==j):
+#     print("lists are equal")  
+# else:
+#     print("lists are not equal") 
+
+
+
+
+
+
 # split even and odd element from the list
 # l = [1,2,3,4,5,6,7]
 # even = []
@@ -546,6 +563,9 @@
 
 
 # set
+
+
+
   
        
      
