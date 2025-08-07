@@ -430,43 +430,70 @@
 # tuples
 
 # print  length of tuple
-t = (2,4,5,7,"a","b","c")
-count = 0
-for i in range(len(t)):
-    count+=1
-print(count)
+# t = (2,4,5,7,"a","b","c")
+# count = 0
+# for i in range(len(t)):
+#     count+=1
+# print(count)
 
 
 
 # find  the occurrence of the particular element 
-t = (2,4,2,5,2,"a","b","c","a")
-target = 2
-count = 0
-for i in t:
-    if target == i:
-        count+=1
-print(count)
+# t = (2,4,2,5,2,"a","b","c","a")
+# target = 2
+# count = 0
+# for i in t:
+#     if target == i:
+#         count+=1
+# print(count)
 
 
 
 # find the maximum element from tuple
-t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
-max = 0
-for i in range(0,len(t)) :
-    if t[i]>max:
-        max = t[i]
-print("the maximum number in the tuple : ",max)
+# t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
+# max = 0
+# for i in range(0,len(t)) :
+#     if t[i]>max:
+#         max = t[i]
+# print("the maximum number in the tuple : ",max)
 
 
 
 
 # find the minimum element from the tuple
-t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
-min = 9
-for i in range(0,len(t)) :
-    if t[i]<min:
-        min = t[i]
-print("the minimum number in the tuple : ",min)
+# t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
+# min = 9
+# for i in range(0,len(t)) :
+#     if t[i]<min:
+#         min = t[i]
+# print("the minimum number in the tuple : ",min)
+
+
+
+# sum of tuple elements 
+# t = (2,4.5,7,8.8,5)
+# sum = 0
+# for i in t:
+#     sum+=i
+# print(sum)
+
+
+
+
+# index of element
+# t = (2,4,6,"a","b","c")
+# value = input("enter a value : ")      #error
+# index = 0
+# for item in t:
+#     if item == value:
+#         print(index)
+#     index+=1  
+
+
+
+
+    
+
 
 
 

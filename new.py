@@ -33,9 +33,20 @@
 #     print("*"*i) 
     
 
-n = int(input("enter a number : "))
-for i in range(n,0,-1):
-    print("*"*i)
+t = (2,4,6,"a","b","c")
+value = input("enter a value : ")      #error
+index = 0
+for item in t:
+    if item == value:
+        print(index)
+    index+=1   
     
+
+
+
+
+
+      
+   
     
           
