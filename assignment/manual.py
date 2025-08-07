@@ -50,7 +50,8 @@
 
 
 
- # reverse a number /integer
+
+# reverse a number /integer
 # num = int(input("enter a number : "))
 # rev = 0
 # while num>0:
@@ -289,6 +290,12 @@
 #     rev.append(x)
 # print(rev)
 
+# l = ['a','b','c','d']            
+# rev = []
+# for i in range(len(l)-1,-1,-1):
+#     rev += [l[i]]
+# print(rev)
+
 
 
 # check the given list is palindrome or not
@@ -488,6 +495,64 @@
 #     if item == value:
 #         print(index)
 #     index+=1  
+
+
+
+
+# reverse a tuple
+# t = (1,2,3,4,5)
+# # print(t[::-1])
+
+
+# rev = ()
+# for i in range(len(t)-1,-1,-1):
+#    rev += (t[i],)
+# print(rev)
+
+
+
+
+# convert the list into tuple
+# l = [2,4,"a","b",6,"mantasha"]
+# t = ()
+# for i in range(len(l)):
+#     t += (l[i],)
+# print(t) 
+
+
+
+# convert the tuple into list
+# t =  ('a',2.3,'b',7)
+# l = []
+# for i in range(len(t)):
+#     l.append(t[i])
+# print(l) 
+
+
+
+# check tuples are equal
+# t1 =  ('a',2.3,'b',7)
+# t2 =  ('a',2.3,'b',7,"f") 
+# for i in t1:
+#     x = i
+# for j in t2:
+#     y = j
+# if(x==j):
+#     print("tuples are equal")  
+# else:
+#     print("tuples are not equal") 
+    
+
+
+
+# set
+  
+       
+     
+   
+    
+  
+    
 
 
 
