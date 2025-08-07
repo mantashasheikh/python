@@ -405,22 +405,78 @@
 
 
 # alternate case convert upperCase into lowerCase and lowerCase into upperCase
-s = "My Name Is Mantasha Sheikh. I Live In Bhopal MP . I Am 21 Years Old"
-result = ""
-for ch in range(len(s)):
-    if 'a'<= s[ch] <='z':
-        result += chr(ord(s[ch])-32)
-    elif 'A'<= s[ch] <='Z':
-        result += chr(ord(s[ch])+32) 
-    else:
-        result += s[ch]     
-print(result) 
+# s = "My Name Is Mantasha Sheikh. I Live In Bhopal MP . I Am 21 Years Old"
+# result = ""
+# for ch in range(len(s)):
+#     if 'a'<= s[ch] <='z':
+#         result += chr(ord(s[ch])-32)
+#     elif 'A'<= s[ch] <='Z':
+#         result += chr(ord(s[ch])+32) 
+#     else:
+#         result += s[ch]     
+# print(result) 
 
 
 
 
 # reverse each word of the string
- 
+
+
+
+
+
+
+
+# tuples
+
+# print  length of tuple
+t = (2,4,5,7,"a","b","c")
+count = 0
+for i in range(len(t)):
+    count+=1
+print(count)
+
+
+
+# find  the occurrence of the particular element 
+t = (2,4,2,5,2,"a","b","c","a")
+target = 2
+count = 0
+for i in t:
+    if target == i:
+        count+=1
+print(count)
+
+
+
+# find the maximum element from tuple
+t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
+max = 0
+for i in range(0,len(t)) :
+    if t[i]>max:
+        max = t[i]
+print("the maximum number in the tuple : ",max)
+
+
+
+
+# find the minimum element from the tuple
+t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
+min = 9
+for i in range(0,len(t)) :
+    if t[i]<min:
+        min = t[i]
+print("the minimum number in the tuple : ",min)
+
+
+
+
+
+        
+        
+        
+    
+
             
         
     
