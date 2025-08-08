@@ -588,6 +588,34 @@ d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'}
 for key in d:
     print(key ,":", d[key]) 
     
+
+# find the particular key occur in the dictionary 
+d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+target = 'age'
+for key in d:
+    if key==target:
+       print("this key is ") 
+       
+       
+       
+# count the value occurence
+d = {'name':'Mantasha', 'age':21 , 'course':'FSWD', 'person':'Mantasha', 'human':'Mantasha'} 
+count = 0
+for value in d:
+    if d[value]=='Mantasha':
+        count+=1
+print(count) 
+
+
+
+#  
+    
+    
+    
+
+ 
+    
+    
     
     
         
