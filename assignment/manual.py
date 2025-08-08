@@ -562,7 +562,35 @@
 
 
 
-# set
+# dictionary
+
+# find the lenth of dictionary
+d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'}
+count = 0
+for i in d:
+    count+=1
+print(count) 
+
+# get keys of the dictionary
+d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+for key in d:
+    print(key)
+    
+ 
+# get values of the dictionary 
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+for value in d:
+    print(d[value])
+    
+
+# get item of the dictionary
+d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+for key in d:
+    print(key ,":", d[key]) 
+    
+    
+    
+        
 
 
 
