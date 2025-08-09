@@ -565,46 +565,62 @@
 # dictionary
 
 # find the lenth of dictionary
-d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'}
-count = 0
-for i in d:
-    count+=1
-print(count) 
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'}
+# count = 0
+# for i in d:
+#     count+=1
+# print(count) 
 
 # get keys of the dictionary
-d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-for key in d:
-    print(key)
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+# for key in d:
+#     print(key)
     
  
 # get values of the dictionary 
-# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-for value in d:
-    print(d[value])
+# # d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+# for value in d:
+#     print(d[value])
     
 
-# get item of the dictionary
-d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-for key in d:
-    print(key ,":", d[key]) 
+# # get item of the dictionary
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+# for key in d:
+#     print(key ,":", d[key]) 
     
 
 # find the particular key occur in the dictionary 
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+# target = 'mantasha'
+# for key in d:
+#     if key==target:
+#        print("this key is present in the dictionary")
+#        break
+# else:
+#     print("this key is not present in the dictionary")   
+    
+    
+    
+    
+ # find the particular value occur in the dictionary    
 d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-target = 'age'
-for key in d:
-    if key==target:
-       print("this key is ") 
-       
-       
-       
-# count the value occurence
-d = {'name':'Mantasha', 'age':21 , 'course':'FSWD', 'person':'Mantasha', 'human':'Mantasha'} 
-count = 0
+target = 'Mantasha'
 for value in d:
-    if d[value]=='Mantasha':
-        count+=1
-print(count) 
+    if d[value]==target:
+       print("this value is present in the dictionary")
+       break
+else:
+    print("this value is not present in the dictionary")       
+       
+       
+       
+# # count the value occurence
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD', 'person':'Mantasha', 'human':'Mantasha'} 
+# count = 0
+# for value in d:
+#     if d[value]=='Mantasha':
+#         count+=1
+# print(count) 
 
 
 
