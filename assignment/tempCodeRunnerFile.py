@@ -1,8 +1,32 @@
-d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-# target = 'mantasha'
-# for key in d:
-#     if key==target:
-#        print("this key is present in the dictionary")
-#        break
-# else:
-#     print("this key is not present in the dictionary") 
+# rectangle pattern
+# n = int(input("enter a number:"))
+# i = 1
+# while i<=n:
+#     print("*"*n)
+#     i = i+1
+    
+    
+# right angle triangle
+# n = int(input("enter a number:"))
+# i = 1
+# while i<=n:
+#     print("*"*i)
+#     i = i+1
+    
+
+
+# right angle triagle 
+# n = int(input("enter a number:"))
+# i = 1
+# while i<=n:
+#     print(" "*(n-i) + "*"*i)
+#     i = i+1
+    
+
+
+
+# pyramid 
+# n = int(input("enter a number:"))
+# i = 1
+# while i<=n:
+#     print(" "*(n-i) + "_*"*i)

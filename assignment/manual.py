@@ -603,14 +603,14 @@
     
     
  # find the particular value occur in the dictionary    
-d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-target = 'Mantasha'
-for value in d:
-    if d[value]==target:
-       print("this value is present in the dictionary")
-       break
-else:
-    print("this value is not present in the dictionary")       
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+# target = 'Mantasha'
+# for value in d:
+#     if d[value]==target:
+#        print("this value is present in the dictionary")
+#        break
+# else:
+#     print("this value is not present in the dictionary")       
        
        
        
