@@ -624,7 +624,31 @@
 
 
 
-#  
+# add key value in the dictionary
+my_dict = {}
+my_dict['name']="mantasha"
+my_dict['age']=21
+print(my_dict) 
+
+
+# update the value of the dictionary
+my_dict = {'name':"rimsha",'age':19}
+my_dict['age']=25
+my_dict.update({"name":"ahad"})
+print(my_dict)
+
+
+# delete key from the dictionary
+d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+remove = "age"
+new_dic = {}
+for key in d:
+    if key != remove:
+        new_dic[key]=d[key]
+d=new_dic
+print(d)        
+
+
     
     
     
