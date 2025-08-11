@@ -625,28 +625,62 @@
 
 
 # add key value in the dictionary
-my_dict = {}
-my_dict['name']="mantasha"
-my_dict['age']=21
-print(my_dict) 
+# my_dict = {}
+# my_dict['name']="mantasha"
+# my_dict['age']=21
+# print(my_dict) 
+
+
 
 
 # update the value of the dictionary
-my_dict = {'name':"rimsha",'age':19}
-my_dict['age']=25
-my_dict.update({"name":"ahad"})
-print(my_dict)
+# my_dict = {'name':"rimsha",'age':19}
+# my_dict['age']=25
+# my_dict.update({"name":"ahad"})
+# print(my_dict)
+
+
 
 
 # delete key from the dictionary
-d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-remove = "age"
-new_dic = {}
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+# remove = "age"
+# new_dic = {}
+# for key in d:
+#     if key != remove:
+#         new_dic[key]=d[key]
+# d=new_dic
+# print(d)   
+
+
+
+
+# merge two dictionaries
+# d1 = {'name':'mantasha','age':21,}
+# d2 = {'course':'fswd', 'fav_fruit':'mango'} 
+# merge = {}
+# for key in d1:
+#     merge[key]=d1[key]
+# for key in d2:
+#     merge[key]=d2[key]
+# print(merge)  
+
+
+
+
+# copy the dictionary
+d = {'fruit':'apple','vegetable':'potato'}
+new_d = {}
 for key in d:
-    if key != remove:
-        new_dic[key]=d[key]
-d=new_dic
-print(d)        
+    new_d[key] = d[key]
+print(new_d)
+
+
+
+   
+    
+     
+      
 
 
     
