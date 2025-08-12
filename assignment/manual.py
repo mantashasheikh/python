@@ -696,11 +696,32 @@ s = {'apple','mango','banana','orange','lichi','mango'}
 item = 'pineapple'
 if item not in s:
     s = s | {item}
-print(s)         
+print(s) 
+
+my_set = {1, 2, 3}
+my_set.add(4)
+print(my_set)        
         
       
          
+# remove item from the set
+s = {'apple','mango','banana','orange','lichi','mango'}
+item = "mango"
+if item in s:
+    s.remove(item)
+print(s) 
+
+my_set = {1, 2, 3,4}
+my_set.discard(2)
+print(my_set) 
+
+
+
+
 # 
+
+   
+ 
    
     
      
