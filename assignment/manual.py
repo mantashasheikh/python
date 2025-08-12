@@ -669,14 +669,38 @@
 
 
 # copy the dictionary
-d = {'fruit':'apple','vegetable':'potato'}
-new_d = {}
-for key in d:
-    new_d[key] = d[key]
-print(new_d)
+# d = {'fruit':'apple','vegetable':'potato'}
+# new_d = {}
+# for key in d:
+#     new_d[key] = d[key]
+# print(new_d)
 
 
 
+
+# set
+
+
+# find the length of the set
+s = {'apple','mango','banana','orange','lichi','mango'}
+count = 0
+for i in s:
+    count+=1
+print(count) 
+
+
+
+
+# add the item to the set
+s = {'apple','mango','banana','orange','lichi','mango'}
+item = 'pineapple'
+if item not in s:
+    s = s | {item}
+print(s)         
+        
+      
+         
+# 
    
     
      
