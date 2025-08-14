@@ -194,18 +194,32 @@
 # print(result)  
 
 
-w = 10
-x = 10,
-print(type(w))
-print(type(x))
-y = (10)
-z = (10,)
-print(type(y))
-print(type(z))
-p = ("mantasha")
-print(type(p))
-q = ((1,2,3,4))
-print(type(q))
+# w = 10
+# x = 10,
+# print(type(w))
+# print(type(x))
+# y = (10)
+# z = (10,)
+# print(type(y))
+# print(type(z))
+# p = ("mantasha")
+# print(type(p))
+# q = ((1,2,3,4))
+# print(type(q))
+
+
+
+n=int(input("Enter any no:")) 
+factors = [] 
+for i in range(1,n+1): 
+    if n%i==0: 
+        factors.append(i) 
+ 
+print("Factors are :",factors) 
+
+
+
+
 
 
   
