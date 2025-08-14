@@ -132,13 +132,85 @@
 
 
 # def display(**n):
-#     for i in n:
-#         for k,v in n.items():
-#             print(f'key is ${k} and value is ${v}')
+#     # for i in n:
+#     for k,v in n.items():
+#         print(f'key is {k} and value is {v}')
 # x = eval(input("enter a tuple : "))
-# result = display(x)
+# result = display(**x)
 # print(result)            
        
+       
+       
+# def show(**n):
+#     print(n)
+#     print(type(n))
+# d=eval(input("enter a dict :"))
+# show(**d) 
+
+
+# def display(**n):
+#     for k,v in n.items():
+#         print(f'key is {k} and value is {v}')
+# d=eval(input("enter a dict :"))
+# display(**d)   
+
+
+# def show(x,y,z=0,*n,p,q=0,**m):
+#     print(x) 
+#     print(y) 
+#     print(z) 
+#     print(n) 
+#     print(p) 
+#     print(q) 
+#     print(m) 
+# show(1,2,10,2,4,6,p=20,q=30,r=10,s=20,t=20) 
+
+
+
+# x= [10,20,30,40]
+# p,q,r,s=[10,20,30,40]
+# print(p)
+# print(q)
+# print(r)
+# print(s) 
+
+
+# x = [10,20,30,40]
+# print(*x) 
+
+
+# x = 'python'
+# print(*x)   
+
+
+
+# def add(*n):
+#     sum = 0
+#     for i in n:
+#         sum = sum+i
+#     return sum
+# x = eval(input("enter any collection : "))
+# result = add(*x)   
+# print(result)  
+
+
+w = 10
+x = 10,
+print(type(w))
+print(type(x))
+y = (10)
+z = (10,)
+print(type(y))
+print(type(z))
+p = ("mantasha")
+print(type(p))
+q = ((1,2,3,4))
+print(type(q))
+
+
+  
+       
+
        
 
        

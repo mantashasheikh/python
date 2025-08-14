@@ -718,7 +718,53 @@ print(s)
 
 
 
-# 
+
+# find the union set
+s1 = {2,3,4,6}
+s2 = {1,5,8,7,2,3}
+result = set()
+for i in s1:
+    result.add(i)
+for j in s2:
+    result.add(j)
+print(result) 
+
+
+
+# find the intersection set
+s1 = {2,3,4,6}
+s2 = {1,5,8,7,2,3}
+result = set()
+for i in s1:
+    for j in s2:
+        if i==j:
+            result.add(i)
+print(result) 
+
+
+
+# find the difference of the set
+
+
+
+
+# check another set is a subset
+s1 = {1,2,3,4,5,6,7,8,9}
+s2 = {2,4,6,9}
+
+if s2 in s1:
+    print("subset")
+else:
+    print("not a subset")    
+        
+        
+        
+
+
+
+ 
+    
+ 
 
    
  
