@@ -636,7 +636,7 @@
 # update the value of the dictionary
 # my_dict = {'name':"rimsha",'age':19}
 # my_dict['age']=25
-# my_dict.update({"name":"ahad"})
+# # my_dict.update({"name":"ahad"})
 # print(my_dict)
 
 
@@ -656,7 +656,7 @@
 
 
 # merge two dictionaries
-# d1 = {'name':'mantasha','age':21,}
+# d1 = {'name':'mantasha','age':21}
 # d2 = {'course':'fswd', 'fav_fruit':'mango'} 
 # merge = {}
 # for key in d1:
@@ -682,7 +682,7 @@
 
 
 # find the length of the set
-s = {'apple','mango','banana','orange','lichi','mango'}
+s = {'apple','mango','banana','orange','mango'}
 count = 0
 for i in s:
     count+=1
@@ -698,22 +698,22 @@ if item not in s:
     s = s | {item}
 print(s) 
 
-my_set = {1, 2, 3}
-my_set.add(4)
-print(my_set)        
+# my_set = {1, 2, 3}
+# my_set.add(4)
+# print(my_set)        
         
       
          
 # remove item from the set
-s = {'apple','mango','banana','orange','lichi','mango'}
-item = "mango"
-if item in s:
-    s.remove(item)
-print(s) 
+# s = {'apple','mango','banana','orange','lichi','mango'}
+# item = "mango"
+# if item in s:
+#     s.remove(item)
+# print(s) 
 
-my_set = {1, 2, 3,4}
-my_set.discard(2)
-print(my_set) 
+# my_set = {1, 2, 3,4}
+# my_set.discard(2)
+# print(my_set) 
 
 
 

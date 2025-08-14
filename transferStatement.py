@@ -70,6 +70,7 @@
 # while i<=n:
 #     if i==4 or i==7:
 #         pass
+        
 #     else:
 #         print(i)
 #     i = i+1
@@ -80,7 +81,7 @@
 # i=1
 # while i<=n:
 #     if i==4 or i==7:
-#         print("hello")
+#         # print(i)
 #         continue
 #     else:
 #         print(i)
@@ -94,10 +95,10 @@
 # while i<=n:
 #     if i==4 or i==7:
 #         i=i+1
-#         print("hello")
 #         continue
 #     else:
 #         print(i)
+#     i=i+1
 #      
     
     
@@ -115,12 +116,12 @@
     
 
 
-print(print())
-x = print()
-print(x)
-print(x)
-print(x)  
-print(print("hello"))                 
+# print(print())
+# x = print()
+# print(x)
+# print(x)
+# print(x)  
+# print(print("hello"))                 
                         
     
     
