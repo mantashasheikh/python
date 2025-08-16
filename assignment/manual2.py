@@ -329,7 +329,63 @@
 #     print("* "*i) 
 # m=n-1 
 # for i in range(m,0,-1):  
-#     print("* "*i)              
+#     print("* "*i) 
+
+
+
+
+# write a program to check given number is positive
+# n=int(input("enter a number : "))
+# if(n>0):
+#     print(f"{n} :this number is positive")
+    
+    
+    
+# write a program to check the given number is positive or negative
+# n=int(input("enter a number : "))
+# if(n>0):
+#     print(f"{n} :is positive")
+# else:
+#     print(f"{n} :is negative") 
+    
+    
+
+# write a program to check the given number is positive , negative or zero
+# n=int(input("enter a number : "))
+# if(n>0):
+#     print(f"{n} :is positive")
+# elif(n<0):
+#     print(f"{n} :is negative")
+# else:
+#     print(f"{n} : is zero")   
+    
+    
+
+# write a program to swap two variable without using third variable
+# a = 4
+# b = 6
+# a,b = b,a 
+# print("a : ",a)
+# print("b : ",b)
+
+
+# write a prohram to swap two variables using third variable
+# a = 8
+# b = 9
+# c = 0
+# c = b
+# b = a
+# a = c
+# print("a : ",a)
+# print("b : ",b)
+
+
+
+# write a program to swap two variable s using addition and subtraction
+
+
+    
+          
     
     
     
