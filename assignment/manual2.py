@@ -64,27 +64,87 @@
 
    
 # WAP to arrenge all even and odd no at a place. 
-l = [2,1,3,8,4,8,5]  
-l1=[] 
-for i in l: 
-    if i %2==0: 
-        l1.append(i) 
-for i in l: 
-    if i%2 !=0: 
-        l1.append(i) 
-print(l1)  
+# l = [2,1,3,8,4,8,5]  
+# l1=[] 
+# for i in l: 
+#     if i %2==0: 
+#         l1.append(i) 
+# for i in l: 
+#     if i%2 !=0: 
+#         l1.append(i) 
+# print(l1)  
 
 
 
  
 # WAP to arrenge all zeroes at the end. 
-l = [2,0,3,0,1,0,5]  
-l1=[] 
-for i in l: 
-    if i !=0: 
-        l1.append(i) 
-n = len(l)-len(l1)  
-for i in range(n): 
-    l1.append(0) 
-print(l1)   
+# l = [2,0,3,0,1,0,5]  
+# l1=[] 
+# for i in l: 
+#     if i !=0: 
+#         l1.append(i) 
+# n = len(l)-len(l1)  
+# for i in range(n): 
+#     l1.append(0) 
+# print(l1)
+
+
+
+# 1 2 3 4 5
+# 1 2 3 4 5
+# 1 2 3 4 5 
+# 1 2 3 4 5 
+# 1 2 3 4 5
+# n = int(input("Enter any no :")) 
+# for i in range(1,n+1): 
+#     for j in range(1,n+1): 
+#         print(j,end=' ') 
+#     print()
+
+    
+# 1
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5 
+# n= int(input("Enter any no :")) 
+# for i in range(1,n+1): 
+#     for j in range(1,i+1): 
+#         print(j,end=' ')
+#     print()  
+    
+    
+    
+# A B C D E
+# A B C D E
+# A B C D E
+# A B C D E
+# A B C D E 
+# n= int(input("Enter any no :")) 
+# for i in range(1,n+1): 
+#     ch='A' 
+#     for j in range(1,n+1): 
+#         print(ch,end=' ') 
+#         ch=chr(ord(ch)+1) 
+#     print()
+    
+      
+    
    
+# A
+# A B
+# A B C
+# A B C D
+# A B C D E 
+# n= int(input("Enter any no :")) 
+# for i in range(1,n+1): 
+#     ch = 'A' 
+#     for j in range(1,i+1): 
+#         print(ch,end=' ') 
+#         ch=chr(ord(ch)+1) 
+#     print()                 
+   
+   
+   
+   
+#    
