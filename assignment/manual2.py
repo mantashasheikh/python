@@ -445,12 +445,97 @@
     
 
 # Write a program to find even no. (2,4,6,8,….) 
-n = int(input("enter a number : "))
-i = 0
+# n = int(input("enter a number : "))
+# i = 1
+# while i<=n:
+#     if i%2==0:
+#         print(i)
+#     i+=1
+    
+
+# Write a program find odd no.(1,3,5,7,9,……)     
+# n = int(input("enter a number : "))
+# i = 1
+# while i<=n:
+#     if i%2!=0:
+#         print(i)
+#     i+=1  
+    
+    
+
+# Write a program to find factorial of given no. 
+# n = int(input("enter a number : "))
+# i = 1
+# fact = 1
+# while i<=n:
+#     fact*=i
+#     i+=1
+# print(fact)
+
+
+
+# Write a program to print your names ten times.  
+# n = int(input("enter a number : "))
+# i = 1
+# while i<=n:
+#     print("mantasha")
+#     i+=1  
+
+
+
+#  Write a program to find how many vowels and consonants are present in string
+# name = input("enter a string : ")
+# vowel = 0
+# consonent = 0
+# i = 0
+# while i in range(len(name)):
+#     if name[i] in "aeiouAEIOU":
+#         vowel+=1
+#     else:
+#         consonent+=1
+#     i+=1  
+# print(vowel)
+# print(consonent)
+
+
+
+# Write a program to add 5 in each elements in given list.
+# l = [10,20,30,40,50]
+# i = 0
+# while i in range(len(l)):
+#     l[i]+=5
+#     i+=1
+# print(l) 
+
+
+
+# Write a program to add 5 in each elements in given tuple.
+# t = (10,20,30,40,50)
+# i=0
+# while i in range(len(t)): #error
+#     t[i]+=5
+#     i+=1
+# print(t)
+
+
+
+
+#  Write a program to create a list from given string. 
+s = input("enter a string : ")
 l = []
-while i<=10:
-    if (i%2==0):
-        print(i)    
+i=0
+while i in range(len(s)) :
+    l.append(s[i])
+    i+=1
+print(l)
+    
+
+
+
+                 
+    
+              
+    
    
              
     
