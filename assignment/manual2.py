@@ -425,11 +425,34 @@
     
     
 # Write a program to display n natural numbers. 
+# n = int(input("enter a number : "))
+# i=1
+# while i<=n:
+#     print(i,end=" ")
+#     i+=1 
+
+    
+    
+# Write a program to calculate the sum of numbers. 
+# l = [2,3,4,5,6]
+# i = 0
+# sum = 0
+# while i in range(len(l)):
+#     sum+=l[i]
+#     i+=1
+# print(sum)
+    
+    
+
+# Write a program to find even no. (2,4,6,8,….) 
 n = int(input("enter a number : "))
-i=1
-while i<=n:
-    print(i,end=" ")
-    i+=1     
+i = 0
+l = []
+while i<=10:
+    if (i%2==0):
+        print(i)    
+   
+             
     
     
     
