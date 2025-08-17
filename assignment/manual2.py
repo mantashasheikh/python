@@ -89,6 +89,7 @@
 # print(l1)
 
 
+# pattern
 
 # 1 2 3 4 5
 # 1 2 3 4 5
@@ -334,6 +335,8 @@
 
 
 
+# if else
+
 # write a program to check given number is positive
 # n=int(input("enter a number : "))
 # if(n>0):
@@ -421,9 +424,12 @@
 #     print(year , " : is a leap year")
 # else:
 #     print(year , " : is not a leap year")
+
+
     
     
-    
+# while loop
+ 
 # Write a program to display n natural numbers. 
 # n = int(input("enter a number : "))
 # i=1
@@ -521,13 +527,58 @@
 
 
 #  Write a program to create a list from given string. 
-s = input("enter a string : ")
-l = []
-i=0
-while i in range(len(s)) :
-    l.append(s[i])
-    i+=1
-print(l)
+# s = input("enter a string : ")
+# l = []
+# i=0
+# while i in range(len(s)) :
+#     l.append(s[i])
+#     i+=1
+# print(l)
+
+
+# for loop
+
+# Print the first 10 natural numbers using for loop. 
+# n = int(input("enter a number: "))
+# for i in range(1,n+1):
+#     print(i)
+    
+    
+
+# print all even number within a range
+# n = int(input("enter a number : "))
+# for i in range(0,n+1):
+#     if(i%2==0):
+#         print(i) 
+        
+
+
+
+# print sum of all number 
+# n = int(input("enter a number : "))
+# sum = 0
+# for i in range(0,n+1):
+#     sum+=i
+# print(sum)  
+
+
+
+# print numltiplication of a given number
+# n = int(input("enter a number :"))
+# table = 2
+# # for i in range(1,n+1):         error
+#     table*=i
+#     print(n)     
+
+
+
+
+
+            
+    
+    
+ 
+    
     
 
 
