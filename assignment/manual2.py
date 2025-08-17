@@ -384,8 +384,56 @@
 # write a program to swap two variable s using addition and subtraction
 
 
+
     
-          
+# Write a program to find largest no among the three inputs numbers. 
+# n1 = int(input("enter first number : "))
+# n2 = int(input("enter second number :"))
+# n3 = int(input("enter third number :"))
+# if n1>n2 and n1>n3:
+#     print(n1, " : is greater")
+# elif n2>n1 and n2>n3:
+#     print(n2, " : is greater")
+# else:
+#     print(n3, " : is greater")
+    
+    
+    
+# Write a program to find area of  triangle. (1/2* hight*base)
+# height = int(input("enter a height : "))
+# base = int(input("enter a base : "))
+# area = 1/2*(height*base)
+# print(area)
+
+
+
+# Write a program to find area of square. 
+# side =  int(input("enter a number : "))
+# area = side*side
+# print(area) 
+
+
+
+
+# Write a program to find given year is leep year or not. 
+# year = int(input("enter a number :"))
+# if year%4==0 or year%400==0:
+#     print(year , " : is a leap year")
+# else:
+#     print(year , " : is not a leap year")
+    
+    
+    
+# Write a program to display n natural numbers. 
+n = int(input("enter a number : "))
+i=1
+while i<=n:
+    print(i,end=" ")
+    i+=1     
+    
+    
+    
+                           
     
     
     
