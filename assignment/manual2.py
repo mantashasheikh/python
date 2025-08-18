@@ -568,7 +568,50 @@
 # table = 2
 # # for i in range(1,n+1):         error
 #     table*=i
-#     print(n)     
+#     print(n) 
+
+
+
+
+# python program to count the total number of a digit
+# n = int(input("enter a number : "))      #error
+# count = 0
+# while n>0:
+#     count+=1
+#     n/=10
+# print(count) 
+
+
+
+# (madam=madam) 
+# string = input("enter a string : ")
+# if(string=="madam"):
+#     print("it is equal")
+# else:
+#     print("it is not equal")
+    
+    
+
+
+# python program that accept the word from the user and reverse it
+string = input("enter a string : ")
+reverse = ""
+i = len(string)
+while i in range(len(string)-1,-1,-1):
+    reverse =''.join((reverse,string[i]))
+    i+=1
+print(reverse)    
+    
+
+    
+    
+    
+        
+   
+    
+     
+      
+     
 
 
 

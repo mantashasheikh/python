@@ -209,13 +209,96 @@
 
 
 
-n=int(input("Enter any no:")) 
-factors = [] 
-for i in range(1,n+1): 
-    if n%i==0: 
-        factors.append(i) 
+# n=int(input("Enter any no:")) 
+# factors = [] 
+# for i in range(1,n+1): 
+#     if n%i==0: 
+#         factors.append(i) 
  
-print("Factors are :",factors) 
+# print("Factors are :",factors) 
+
+
+
+# map()
+
+# l = [1,2,3,4,5]
+# def squar(n):
+#     return n**2
+# result = map(squar,l)
+# print(result)
+# print(tuple(result))
+# print(list(result))      #interview question
+
+
+
+# l1 = [6,7,8,9,10]
+# l2 = [1,2,3,4,5]
+# l3 = [1,2,3,4]
+# l4 = [1,2,3]
+# def add(x,y,z,p):
+#     return x+y+z+p
+# result = map(add,l1,l2,l3,l4)     #interview question
+# print(list(result))
+
+
+
+
+
+# l1 = [6,7,8,9,10]
+# l2 = [1,2,3,4,5]
+# l3 = [1,2,3,4,5]
+# def add(x,y,z):
+#     return x+y+z
+# result = map(add,l1,l2,l3)     #interview question
+# print(list(result))
+
+
+
+# filter()
+
+l = [1,2,3,4,5]
+def even_no(n):
+    if n%2==0:
+        return n
+result = list(filter(even_no,l))
+print(result)  
+
+
+
+l = [1,2,3,4,5]
+def odd_no(n):
+    if n%2!=0:
+        return n
+result = list(filter(odd_no,l))
+print(result)
+
+
+
+l = [1,2,3,4,5]
+def odd_no(n):
+    if n%2!=0:
+        return 'even'
+    else:
+        return 'odd'
+result = list(map(odd_no,l))
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
