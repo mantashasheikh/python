@@ -636,30 +636,39 @@
 
 
 # python program to display all number within a range except prime number
-N = int(input("enter a number : "))
-count = 0
-for i in range(1,N+1):
-  if(N%i==0):
-      count+=1
-if(count==2):
-    print(N,":is prime number")
-else:
-    print(N, ":is not a prime number")
+# N = int(input("enter a number : "))
+# count = 0
+# for i in range(1,N+1):                  #error
+#   if(N%i==0):
+#       count+=1
+# if(count==2):
+#     print(N,":is prime number")
+# else:
+#     print(N, ":is not a prime number")
     
     
     
 # print fibinacci series
-N = 4
-first = 0
-second = 1
-next = 0
-print(first) 
-print(second)
+# N = 4
+# first = 0
+# second = 1
+# next = 0
+# print(first) 
+# print(second)
+# for i in range(1,n+1):
+#     next = first + second
+#     first = second
+#     second = next
+#     print(next) 
+    
+    
+    
+# print factorial of a given number
+n = 5
+ans = 1
 for i in range(1,n+1):
-    next = first + second
-    first = second
-    second = next
-    print(next) 
+    ans = ans*i
+    print(ans) 
 
         
     
