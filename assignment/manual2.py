@@ -594,33 +594,74 @@
 
 
 # python program that accept the word from the user and reverse it
-N = 12345 
-rev = 0
-while N>0:                    #error
-    mod = N%10
-    rev = rev*10+mod
-    N = N//10
-print(rev)
+# s = input("enter a string : ")
+# reverse = ""
+# for i in range(len(s)-1,-1,-1):
+#     reverse = ''.join((reverse,s[i]))
+# print(reverse)    
+    
 
 
 
 
 # python program to check if the given number is armstrong or not
-num = int(input("enter a number:"))
-sum = 0
-ans = num
-for i in range(1,num+1):
-    digit = num%10
-    sum = sum+digit*digit*digit
-    num = num//10
-if(ans==sum):
-    print("armstrong")
+# num = int(input("enter a number:"))
+# sum = 0
+# ans = num
+# for i in range(1,num+1):
+#     digit = num%10
+#     sum = sum+digit*digit*digit
+#     num = num//10
+# if(ans==sum):
+#     print("armstrong")
+# else:
+#     print("not an armstrong") 
+    
+    
+    
+# python program to count the number of odd and even number
+# l = eval(input("enter a collection of number : "))
+# even = 0
+# odd = 0
+# for i in  range(len(l)): 
+#     if l[i]%2==0:
+#         even+=1
+#     else:
+#         odd+=1
+# print(f"there are {even} even number in the list")
+# print(f"there are {odd} odd numbers in the list")   
+
+
+
+
+
+# python program to display all number within a range except prime number
+N = int(input("enter a number : "))
+count = 0
+for i in range(1,N+1):
+  if(N%i==0):
+      count+=1
+if(count==2):
+    print(N,":is prime number")
 else:
-    print("not an armstrong") 
+    print(N, ":is not a prime number")
     
     
     
-#  
+# print fibinacci series
+N = 4
+first = 0
+second = 1
+next = 0
+print(first) 
+print(second)
+for i in range(1,n+1):
+    next = first + second
+    first = second
+    second = next
+    print(next) 
+
+        
     
     
     
