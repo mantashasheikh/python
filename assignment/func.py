@@ -83,6 +83,11 @@
 
 
 # variable length keyword argument
+# def show(**x):
+#     print(x)
+#     print(type(x))
+# result = show(x=10,y=20,z=30,p=40,q=50,r=60)    
+
 
 
 
@@ -111,7 +116,7 @@
 #     print(i)
 #     for j in i:
 #         sum+=j
-# print(sum)  '
+# print(sum)  
 
 
 # x = eval(input("enter a number : "))
@@ -256,32 +261,32 @@
 
 # filter()
 
-l = [1,2,3,4,5]
-def even_no(n):
-    if n%2==0:
-        return n
-result = list(filter(even_no,l))
-print(result)  
+# l = [1,2,3,4,5]
+# def even_no(n):
+#     if n%2==0:
+#         return n
+# result = list(filter(even_no,l))
+# print(result)  
 
 
 
-l = [1,2,3,4,5]
-def odd_no(n):
-    if n%2!=0:
-        return n
-result = list(filter(odd_no,l))
-print(result)
+# l = [1,2,3,4,5]
+# def odd_no(n):
+#     if n%2!=0:
+#         return n
+# result = list(filter(odd_no,l))
+# print(result)
 
 
 
-l = [1,2,3,4,5]
-def odd_no(n):
-    if n%2!=0:
-        return 'even'
-    else:
-        return 'odd'
-result = list(map(odd_no,l))
-print(result)
+# l = [1,2,3,4,5]
+# def odd_no(n):
+#     if n%2!=0:
+#         return 'even'
+#     else:
+#         return 'odd'
+# result = list(map(odd_no,l))
+# print(result)
 
 
 

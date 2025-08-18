@@ -63,17 +63,17 @@
     
   
 # bad way to create a  diamond 
-n = int(input("enter a number:"))
-n = int(input("enter a number:"))
-i = 1
-while i<=n:
-    print(" "*(n-i) + "_*"*i)
-    i = i+1
+# n = int(input("enter a number:"))
+# n = int(input("enter a number:"))
+# i = 1
+# while i<=n:
+#     print(" "*(n-i) + "_*"*i)
+#     i = i+1
 
-i = 0
-while i<n:
-    print(" "*i + "_*"*(n-i))
-    i = i+1     
+# i = 0
+# while i<n:
+#     print(" "*i + "_*"*(n-i))
+#     i = i+1     
     
     
         
