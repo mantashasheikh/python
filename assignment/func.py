@@ -226,36 +226,36 @@
 
 # map()
 
-# l = [1,2,3,4,5]
-# def squar(n):
-#     return n**2
-# result = map(squar,l)
-# print(result)
-# print(tuple(result))
-# print(list(result))      #interview question
+l = [1,2,3,4,5]
+def squar(n):
+    return n**2
+result = map(squar,l)
+print(result)
+print(tuple(result))
+print(list(result))      #interview question
 
 
 
-# l1 = [6,7,8,9,10]
-# l2 = [1,2,3,4,5]
-# l3 = [1,2,3,4]
-# l4 = [1,2,3]
-# def add(x,y,z,p):
-#     return x+y+z+p
-# result = map(add,l1,l2,l3,l4)     #interview question
-# print(list(result))
+l1 = [6,7,8,9,10]
+l2 = [1,2,3,4,5]
+l3 = [1,2,3,4]
+l4 = [1,2,3]
+def add(x,y,z,p):
+    return x+y+z+p
+result = map(add,l1,l2,l3,l4)     #interview question
+print(list(result))
 
 
 
 
 
-# l1 = [6,7,8,9,10]
-# l2 = [1,2,3,4,5]
-# l3 = [1,2,3,4,5]
-# def add(x,y,z):
-#     return x+y+z
-# result = map(add,l1,l2,l3)     #interview question
-# print(list(result))
+l1 = [6,7,8,9,10]
+l2 = [1,2,3,4,5]
+l3 = [1,2,3,4,5]
+def add(x,y,z):
+    return x+y+z
+result = map(add,l1,l2,l3)     #interview question
+print(list(result))
 
 
 

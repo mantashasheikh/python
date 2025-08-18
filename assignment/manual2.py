@@ -564,22 +564,22 @@
 
 
 # print numltiplication of a given number
-# n = int(input("enter a number :"))
-# table = 2
-# # for i in range(1,n+1):         error
-#     table*=i
-#     print(n) 
+# N = 7
+# for i in range(1,10+1):
+#     mul = i*N
+#     print(mul)
 
 
 
 
 # python program to count the total number of a digit
-# n = int(input("enter a number : "))      #error
+# N = 12345 
 # count = 0
-# while n>0:
+# while N>0:
 #     count+=1
-#     n/=10
-# print(count) 
+#     N = N//10
+# print(count)
+    
 
 
 
@@ -594,13 +594,38 @@
 
 
 # python program that accept the word from the user and reverse it
-string = input("enter a string : ")
-reverse = ""
-i = len(string)
-while i in range(len(string)-1,-1,-1):
-    reverse =''.join((reverse,string[i]))
-    i+=1
-print(reverse)    
+N = 12345 
+rev = 0
+while N>0:                    #error
+    mod = N%10
+    rev = rev*10+mod
+    N = N//10
+print(rev)
+
+
+
+
+# python program to check if the given number is armstrong or not
+num = int(input("enter a number:"))
+sum = 0
+ans = num
+for i in range(1,num+1):
+    digit = num%10
+    sum = sum+digit*digit*digit
+    num = num//10
+if(ans==sum):
+    print("armstrong")
+else:
+    print("not an armstrong") 
+    
+    
+    
+#  
+    
+    
+    
+    
+
     
 
     
