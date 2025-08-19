@@ -525,11 +525,13 @@
 
 # Write a program to add 5 in each elements in given tuple.
 # t = (10,20,30,40,50)
+# t1 = list(t)
 # i=0
-# while i in range(len(t)):                                #error
-#     t[i]+=5
+# while i in range(len(t1)):                                
+#     t1[i]+=5
 #     i+=1
-# print(t)
+# print(tuple(t1))
+
 
 
 

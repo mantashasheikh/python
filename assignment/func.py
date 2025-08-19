@@ -289,6 +289,86 @@ print(list(result))
 # print(result)
 
 
+# reduce
+
+# find the maximum number using reduce
+import functools
+l = [10,5,8,20,25,30]
+def max_digit(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+result = functools.reduce(max_digit,l,0)
+print(result)   
+
+
+# # find the minimum number using reduce
+import functools
+l = [10,5,8,20,25,30]
+def min_digit(x,y):
+    if x<y:
+        return x
+    else:
+        return y
+result = functools.reduce(min_digit,l)
+print(result) 
+
+
+
+
+# sum
+l = [10,5,8,20,25,30]
+def sum(x,y):
+    return x+y
+result = functools.reduce(sum,l)
+print(result)
+
+
+
+# lambda function
+x = lambda x,y,z : x+y+z
+print(x(5,6,7))
+
+
+
+l = [1,2,3,4,5]
+result = list(map(lambda x : x**2,l))
+print(result)
+
+
+
+l1 = [1,2,3]
+l2 = [4,5,6]
+l3 = [7,8,9]
+result = list(map(lambda x,y,z :x+y+z ,l1,l2,l3))
+print(result)
+
+
+
+l = [1,2,3,4,5]
+result = list(map(lambda x : 'even' if x%2==0 else 'odd',l))
+print(result)
+
+
+l = [1,2,3,4,5]
+result = list(filter(lambda x : 'even' if x%2==0 else None, l))
+print(result)
+
+
+l = [1,2,3,4,5]
+result = list(filter(lambda x : 'even' if x%2!=0 else None, l))
+print(result)
+
+
+
+
+
+
+
+ 
+
+
 
 
 
