@@ -388,6 +388,14 @@
 
 
 
+
+
+
+# write a program to find te square root of the given number
+
+
+
+
     
 # Write a program to find largest no among the three inputs numbers. 
 # n1 = int(input("enter first number : "))
@@ -518,7 +526,7 @@
 # Write a program to add 5 in each elements in given tuple.
 # t = (10,20,30,40,50)
 # i=0
-# while i in range(len(t)): #error
+# while i in range(len(t)):                                #error
 #     t[i]+=5
 #     i+=1
 # print(t)
@@ -638,7 +646,7 @@
 # python program to display all number within a range except prime number
 # N = int(input("enter a number : "))
 # count = 0
-# for i in range(1,N+1):                  #error
+# for i in range(1,N+1):                                                    #error
 #   if(N%i==0):
 #       count+=1
 # if(count==2):
@@ -664,11 +672,50 @@
     
     
 # print factorial of a given number
-n = 5
-ans = 1
-for i in range(1,n+1):
-    ans = ans*i
-    print(ans) 
+# n = 5
+# ans = 1
+# for i in range(1,n+1):
+#     ans = ans*i
+#     print(ans) 
+
+
+
+
+# python program that accepts a string and calculate the number of digits and letters
+# s = input("enter a string : ")
+# for i in range()                                     #error
+
+
+
+
+   
+
+
+
+# write a python program that iterate the integers from 1 to 25
+# n = int(input("enter a number : "))
+# for i in range(1,n+1):
+#     print(i)
+
+
+
+    
+    
+# python program to check the validity of password input by user
+# password = input("enter a password : ")
+# if password == "ahad@01234":
+#     print("password is correct")
+# else:
+#     print("password is incorrect")
+    
+    
+    
+    
+    
+# python program to convert the month name to the number of days
+        
+
+    
 
         
     
