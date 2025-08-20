@@ -292,26 +292,26 @@ print(list(result))
 # reduce
 
 # find the maximum number using reduce
-import functools
-l = [10,5,8,20,25,30]
-def max_digit(x,y):
-    if x>y:
-        return x
-    else:
-        return y
-result = functools.reduce(max_digit,l,0)
-print(result)   
+# import functools
+# l = [10,5,8,20,25,30]
+# def max_digit(x,y):
+#     if x>y:
+#         return x
+#     else:
+#         return y
+# result = functools.reduce(max_digit,l,0)
+# print(result)
 
 
 # # find the minimum number using reduce
-import functools
+from functools import reduce
 l = [10,5,8,20,25,30]
 def min_digit(x,y):
     if x<y:
         return x
     else:
         return y
-result = functools.reduce(min_digit,l)
+result = reduce(min_digit,l)
 print(result) 
 
 
@@ -321,7 +321,7 @@ print(result)
 l = [10,5,8,20,25,30]
 def sum(x,y):
     return x+y
-result = functools.reduce(sum,l)
+result = reduce(sum,l)
 print(result)
 
 
