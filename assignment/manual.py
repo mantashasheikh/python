@@ -377,16 +377,24 @@
 
 
 # check the lists are equal or not
-# l1 = [1,2,3,4,5]
-# l2 = [7,6,5,4,3]
-# for i in l1:
-#     x = i
-# for j in l2:
-#     y = j
-# if(x==j):
-#     print("lists are equal")  
-# else:
-#     print("lists are not equal") 
+l1 = [1,2,3,4,5]
+l2 = [1,2,3,4,5]
+for i in l1:
+    x = i
+for j in l2:
+    y = j
+if(x==j):
+    print("lists are equal")  
+else:
+    print("lists are not equal") 
+
+
+if l1==l2:
+    print("list are equal")
+else:
+    print("list are not equal")
+
+
 
 
 
