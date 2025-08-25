@@ -31,8 +31,8 @@
 # print(c.ab())
 
 
-from calculator import add as A
-A()
+# from calculator import add as A
+# A()
 
 
 
