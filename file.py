@@ -9,7 +9,7 @@
 # print(f.closed)
 
 
-f = open('n4.py','x+')
+f = open('n5.py','x+')
 print(f.name)
 print(f.mode)
 print(f.encoding)
