@@ -39,10 +39,73 @@ f = open('n1.txt')
 # print(f.readable())
 
 
-with open('n1.txt') as f:
-    data = f.read()
-    print(data)
-print(f.closed)    
+# with open('n1.txt') as f:
+#     data = f.read()
+#     print(data)
+# print(f.closed)
+
+
+
+# 27/8/25
+
+# with open('n1.txt','a+') as f:
+#     print(f.name)
+#     print(f.mode)
+#     print(f.closed)
+# print(f.closed) 
+
+
+# with open('n1.txt','a+') as f:
+#     print(f.tell())
+
+
+# with open('n6.txt','x') as f:
+#     print(f.tell())
+    
+    
+# with open('n6.txt','w') as f:
+#     print(f.tell())  
+
+
+# with open('n6.txt','r') as f:
+#     print(f.tell())
+#     data = f.read(5)
+#     print(data)
+#     print(f.tell())
+
+
+with open('n6.txt','rb') as f:
+    print(f.tell())
+    data = f.read(5)
+    print(f.tell())
+    f.seek(0)
+    print(f.tell())
+    data = f.read(10)
+    print(f.tell())
+    f.seek(5,0)
+    print(f.tell())
+    f.seek(2,1)
+    print(f.tell())
+    f.seek(-5,1)
+    print(f.tell())
+    f.seek(-5,2)
+    print(f.tell())
+    
+    
+
+
+
+
+       
+
+
+    
+    
+    
+
+
+   
+ 
 
 
 
