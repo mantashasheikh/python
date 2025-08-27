@@ -39,6 +39,12 @@ f = open('n1.txt')
 # print(f.readable())
 
 
+with open('n1.txt') as f:
+    data = f.read()
+    print(data)
+print(f.closed)    
+
+
 
 
 
