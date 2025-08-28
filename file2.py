@@ -74,22 +74,67 @@ f = open('n1.txt')
 #     print(f.tell())
 
 
-with open('n6.txt','rb') as f:
-    print(f.tell())
-    data = f.read(5)
-    print(f.tell())
-    f.seek(0)
-    print(f.tell())
-    data = f.read(10)
-    print(f.tell())
-    f.seek(5,0)
-    print(f.tell())
-    f.seek(2,1)
-    print(f.tell())
-    f.seek(-5,1)
-    print(f.tell())
-    f.seek(-5,2)
-    print(f.tell())
+# with open('n6.txt','rb') as f:
+#     print(f.tell())
+#     data = f.read(5)
+#     print(f.tell())
+#     f.seek(0)
+#     print(f.tell())
+#     data = f.read(10)
+#     print(f.tell())
+#     f.seek(5,0)
+#     print(f.tell())
+#     f.seek(2,1)
+#     print(f.tell())
+#     f.seek(-5,1)
+#     print(f.tell())
+#     f.seek(-5,2)
+#     print(f.tell())
+
+
+# 28/8/25
+
+# import pickle
+# f = open('n1.pkl','ab')
+# data = {
+#     'name':'neeraj',
+#     'age':33,
+#     'quali':'btech'
+# }
+# pickle.dump(data,f)
+# f.close
+
+
+# import pickle
+# f = open('n1.pkl','ab')
+# data = "this is python class"
+# pickle.dump(data,f)
+# f.close
+
+
+# import pickle
+# f = open('n2.pkl','ab+')
+# data = {"this" ,"is" ,"python" ,"class"}
+# pickle.dump(data,f)
+# f.close
+# import pickle
+# f = open('n2.pkl','rb+')
+# data = pickle.load(f)
+# print(data)
+
+
+import pickle
+f = open('n3.pkl','ab+')
+data = ["this" ,"is" ,"python" ,"class"]
+pickle.dump(data,f)
+f.close
+import pickle
+f = open('n3.pkl','rb+')
+data = pickle.load(f)
+print(data)
+
+
+
     
     
 
