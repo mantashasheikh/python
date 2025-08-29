@@ -123,15 +123,29 @@ f = open('n1.txt')
 # print(data)
 
 
+# import pickle
+# f = open('n3.pkl','ab+')
+# data = ["this" ,"is" ,"python" ,"class"]
+# pickle.dump(data,f)
+# f.close
+# import pickle
+# f = open('n3.pkl','rb+')
+# data = pickle.load(f)
+# print(data)
+
+
+
 import pickle
-f = open('n3.pkl','ab+')
-data = ["this" ,"is" ,"python" ,"class"]
-pickle.dump(data,f)
-f.close
-import pickle
-f = open('n3.pkl','rb+')
-data = pickle.load(f)
-print(data)
+l = []
+with open('n1.pkl','rb+') as f:
+    while True:
+        try:
+            data = pickle.load(f)
+            l.append(data)
+        except EOFError:
+            break
+        
+print(l)        
 
 
 
