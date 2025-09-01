@@ -18,7 +18,16 @@
 #     print(x,y)
 # new()
 # print(x)
-# print(y)        
+# print(y)   
+
+
+x = 10
+def new():
+    x = 20
+    print(x)
+    print(globals()['x'])
+new()
+print(x)         
 
 
 
