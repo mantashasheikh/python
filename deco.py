@@ -48,7 +48,7 @@ res = natural(x)
 print(res)  
 
 
-
+# generator
 def natural(n):
     for i in range(1,n+1):
         yield i
@@ -64,7 +64,10 @@ def natural(n):
         yield i
 x = int(input("enter a number:"))
 res = natural(x)
-print(next(res))   
+print(next(res)) 
+print("hello")
+print("world")
+print(next(res))  
 
        
        
