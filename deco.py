@@ -7,6 +7,19 @@
 #     print("from new function")
 # res = outerfunc(new)
 # res()
+
+
+# H.W.
+
+
+a = "mantasha"
+a1 = ""
+for i in a:
+    s1 = ord(i)
+    if s1%2==0:
+        # print(s1)
+        a1 = a1+chr(ord(i))
+print(a1)        
        
 
 
