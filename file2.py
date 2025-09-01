@@ -95,7 +95,7 @@ f = open('n1.txt')
 # 28/8/25
 
 # import pickle
-# f = open('n1.pkl','ab')
+# f = open('n4.pkl','ab+')
 # data = {
 #     'name':'neeraj',
 #     'age':33,
@@ -103,13 +103,22 @@ f = open('n1.txt')
 # }
 # pickle.dump(data,f)
 # f.close
+# import pickle
+# f = open('n4.pkl','rb+')
+# data = pickle.load(f)
+# print(data)
 
 
 # import pickle
-# f = open('n1.pkl','ab')
+# f = open('n5.pkl','ab')
 # data = "this is python class"
 # pickle.dump(data,f)
 # f.close
+# import pickle
+# f = open('n5.pkl','rb+')
+# data = pickle.load(f)
+# print(data)
+
 
 
 # import pickle
