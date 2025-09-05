@@ -40,17 +40,73 @@
 
 
 
-def upperCase(s):
-    result =""
-    for ch in s:
-        if 'a'<=ch <='z':
-            result += chr(ord(ch)-32)
-        else:
-            result += ch
-    return result
-n = input("enter a string : ")
-ans = upperCase(n)
-print(ans)
+# def upperCase(s):
+#     result =""
+#     for ch in s:
+#         if 'a'<=ch <='z':
+#             result += chr(ord(ch)-32)
+#         else:
+#             result += ch
+#     return result
+# n = input("enter a string : ")
+# ans = upperCase(n)
+# print(ans)
+
+
+# # declaration of instance variable
+# class Student:
+#     def __init__(self,name,age ,roll):
+#         self.n = name    #inside constructor  
+#         self.a = age
+#         self.r = roll
+#     def addNew(self,contact):
+#         self.c = contact    #inside instance method
+#     def showDetail(self):
+#         print(self.n,self.a,self.r,self.c,self.e)
+# obj = Student("mantasha",37,1234)
+# obj.addNew(123456789)      
+# obj.e = "mantasha@gmail.com"    #outside the class
+# obj.showDetail() 
+
+
+# # calling of instance variable
+# class Student:
+#     def __init__(self,name,age ):
+#         self.n = name
+#         self.a = age
+#         print(self.a,self.n)    #inside a constructor
+       
+#     def addNew(self,contact):
+#         self.c = contact
+#     def showDetail(self):
+#         print(self.n,self.a,self.c,self.e)   #inside instance method
+# obj = Student("mantasha",37,1234)
+# obj.addNew(123456789)
+# obj.e = "mantasha@gmail.com"
+# obj.showDetail() 
+# print(obj.n,obj.a,obj.c,obj.e)      #outside the class
+
+
+
+
+# class Student:
+#     def __init__(self,name):
+#         self.n = name
+        
+#     def show(self):
+#         print(self.n)    
+# obj = Student("mantasha")
+# obj.show()
+# print(obj.n) 
+       
+
+
+
+
+
+
+               
+        
             
         
           
