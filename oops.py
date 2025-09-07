@@ -144,6 +144,75 @@
        
 
 
+#6-9-2025
+
+#declaration of class variable
+
+# class Student:
+#     school = "SHSS"  #inside class
+#     def __init__(self):
+#         Student.city = "Bhopal"   #inside constructor
+    
+#     def addNew(self):
+#         Student.principle = "python"  #inside instance method
+    
+#     def showdetails(self):
+#         print(Student.city,
+#               Student.school,
+#               Student.principle,
+#               Student.code)
+# Student.code = 101     #outside the  class
+# obj = Student()
+# obj.addNew()
+# obj.showdetails()    
+
+
+
+# calling of class variable
+# class Student:
+#     school = "SHSS" 
+#     def __init__(self):
+#         Student.city = "Bhopal"   
+#         print(Student.code,Student.school,Student.city)  #inside constructor
+    
+#     def addNew(self):
+#         Student.principle = "python"  
+#         print(Student.city)   #inside instance method
+    
+#     def showdetails(self):
+#         print(Student.city,            #inside instance method
+#               Student.school,
+#               Student.principle,
+#               Student.code)
+# Student.code = 101     
+# obj = Student()
+# obj.addNew()
+# print(Student.school)      #outside class 
+
+
+
+
+#local variable
+
+# class Student:
+#     school = "SHSS" 
+#     def __init__(self):
+#         city = "Bhopal"   #local variable
+#         print(city)
+    
+# obj = Student()
+# print(city)  
+
+
+
+#class method
+
+ 
+
+
+
+     
+
 
 
 
