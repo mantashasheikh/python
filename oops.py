@@ -207,6 +207,54 @@
 
 #class method
 
+
+
+
+
+
+
+
+#8-9-2025
+
+# static method
+# class Student:            #error
+#     def show():
+#         print("hello")
+# obj = Student()
+# obj.show()        
+
+
+
+class Student:
+    @staticmethod
+    def show():
+        print("hello")
+obj = Student()
+obj.show() 
+ 
+ 
+ 
+# class Student:
+#     @staticmethod           #error
+#     def show(self):
+#         print("hello")
+# obj = Student()
+# obj.show()  
+
+class Student:
+    @staticmethod          
+    def show(self):
+        print("hello")
+obj = Student()
+obj.show("mantasha") 
+
+
+class Student:
+    @staticmethod          
+    def show(self):
+        print(self)
+obj = Student()
+obj.show("mantasha")
  
 
 

@@ -100,7 +100,23 @@
 # print(obj.n) 
        
 
+# import keyword
+# x = keyword.kwlist
+# print(x)
+# print(len(x))
+# print(type(x))
 
+
+
+# import keyword
+# x = keyword.softkwlist
+# print(x)
+# print(len(x))
+# print(type(x))
+
+
+a = None
+print(type(a))
 
 
 

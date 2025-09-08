@@ -1,12 +1,12 @@
 # string method
 
-# s = "this is the python class"
+s = "this is the python class .this class is very good"
 # print(s.lower())
 # print(s.upper())
 # print(s.capitalize())
 # print(s.title())
 # print(s.index("p"))
-# print(s.count("s"))
+# print(s.count("class"))
 # print(s.find("P"))
 # s1 = "python"
 # s2 = "language"
@@ -61,7 +61,7 @@
 
 
 
-# operators
+# # operators
 # l1 = [1,2,3,4,"python"]
 # l2 = ["java"]
 # print(l1+l2) #concatination
@@ -200,6 +200,9 @@
 # d = d.fromkeys(l)
 # print(d)
 
+# d = d.keys()
+# print(d)
+
 # d['name'] = 'Neeraj'
 # print(d)
 
@@ -234,49 +237,49 @@
 
 
 # # mathematical operation on set
-# s1 = {1,2,3,4,5}
-# s2 = {4,5,6,7,8}
+s1 = {1,2,3,4,5}
+s2 = {4,5,6,7,8}
 # print(s1.union(s2))
 # print(s1.intersection(s2))
 # print(s1.difference(s2))
 # print(s1.symmetric_difference(s2))
 
-# # s1.intersection_update(s2)
-# # print(s1)
-# # s1.difference_update(s2)
-# # print(s1)
-# # s1.symmetric_difference_update(s2)
-# # print(s1)
+# s1.intersection_update(s2)
+# print(s1)
+# s1.difference_update(s2)
+# print(s1)
+# s1.symmetric_difference_update(s2)
+# print(s1)
 
 # s3 = {1,2,3,4,5,6,7,8,9,10,11,12}
 # s4 = {2,6,9,11}
 
 
-# print(s3.isdisjoint(s4))
-# print(s3.issubset(s4))
+# print(s4.isdisjoint(s3))
+# print(s4.issubset(s3))
 # print(s3.issuperset(s4))
 
-# s = set()
+s = set()
 # s.add("python")
 # print(s)
 
 # # s.update("python")
 # # print(s)
 
-# # s.update(10,20,30,40)
-# # print(s)
-# # s.update("java","php")
-# # print(s)
-# # s.update("p","y","t","h","o","n")
-# # print(s)
+# s.update(10,20,30,40)
+# print(s)
+# s.update("java","php")
+# print(s)
+# s.update("p","y","t","h","o","n")
+# print(s)
 # s.update(["java","php"])
 # print(s)
 # print(s.pop())
 # print(s)
-# # s.remove("python")
-# # print(s)
-# # s.remove("neeraj")
-# # print(s)
+# s.remove("python")
+# print(s)
+# s.remove("neeraj")
+# print(s)
 # s.discard("neeraj")
 # print(s)
 

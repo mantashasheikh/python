@@ -665,7 +665,7 @@
 # next = 0
 # print(first) 
 # print(second)
-# for i in range(1,n+1):
+# for i in range(1,N+1):
 #     next = first + second
 #     first = second
 #     second = next
