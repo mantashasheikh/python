@@ -115,8 +115,48 @@
 # print(type(x))
 
 
-a = None
-print(type(a))
+# a = None
+# print(type(a))
+
+
+# def reverse(s):
+#     return s[::-1]
+# n = input("enter a string: ")
+# ans = reverse(n)
+# print(ans)
+
+
+# def count(l):
+#     c = 0
+#     for i in range(len(l)):
+#         c+=1
+#     return c    
+# list = eval(input("enter a list : "))
+# ans = count(list)
+# print(ans)
+
+
+
+def reverse(s):
+    return s[::-1]
+n = input("enter a string: ")
+same = n
+ans = reverse(n)
+if same==ans:
+    print("palindrome")
+else:
+    print("not a palindrome") 
+    
+    
+       
+
+
+
+    
+
+
+
+    
 
 
 
