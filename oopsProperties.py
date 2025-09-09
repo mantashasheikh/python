@@ -37,19 +37,34 @@
 
 # multiple inheritance  
 
-class Parent1:
-    def home(self):
-        print("from parent1")
+# class Parent1:
+#     def home(self):
+#         print("from parent1")
 
-class Parent2:
-    def home(self):
-        print("from parent2") 
+# class Parent2:
+#     def home(self):
+#         print("from parent2") 
         
-class Child(Parent1,Parent2):
-    pass
+# class Child(Parent1,Parent2):
+#     pass
+
+# obj = Child()
+# obj.home()
+
+
+# method overriding
+
+class Parent:
+    def home(self):
+        print("from parent")
+
+class Child(Parent):
+    def home(self):
+        print("from child")
+        super().home()
 
 obj = Child()
-obj.home()
+obj.home()                
 
                            
   
