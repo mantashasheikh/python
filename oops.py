@@ -207,6 +207,27 @@
 
 #class method
 
+class Student:
+    school_code  = 101
+    def __init__(self,name):
+        self.n = name
+        
+    @classmethod
+    def update_code(cls,new_code):
+        cls.school_code = new_code
+        cls.city = "bhopal"
+obj = Student("neeraj")
+print(obj.school_code)
+
+obj.update_code(102)
+print(obj.school_code)
+obj2 = Student("Rahul")
+print(obj2.school_code)
+print(obj.city)
+print(obj2.city)
+
+          
+
 
 
 
@@ -225,12 +246,12 @@
 
 
 
-class Student:
-    @staticmethod
-    def show():
-        print("hello")
-obj = Student()
-obj.show() 
+# class Student:
+#     @staticmethod
+#     def show():
+#         print("hello")
+# obj = Student()
+# obj.show() 
  
  
  
@@ -241,20 +262,20 @@ obj.show()
 # obj = Student()
 # obj.show()  
 
-class Student:
-    @staticmethod          
-    def show(self):
-        print("hello")
-obj = Student()
-obj.show("mantasha") 
+# class Student:
+#     @staticmethod          
+#     def show(self):
+#         print("hello")
+# obj = Student()
+# obj.show("mantasha") 
 
 
-class Student:
-    @staticmethod          
-    def show(self):
-        print(self)
-obj = Student()
-obj.show("mantasha")
+# class Student:
+#     @staticmethod          
+#     def show(self):
+#         print(self)
+# obj = Student()
+# obj.show("mantasha")
  
 
 
