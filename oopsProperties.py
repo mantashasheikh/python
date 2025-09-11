@@ -172,34 +172,118 @@
 
 
 
-from abc import ABC, abstractmethod 
-class Senior(ABC):
-    def add(self):
-        x = 2
-        y = 3
-        print(x+y)
+# from abc import ABC, abstractmethod 
+# class Senior(ABC):
+#     def add(self):
+#         x = 2
+#         y = 3
+#         print(x+y)
     
-    def sub(self):
-        x = 3
-        y = 1
-        print(x-y)
-    @abstractmethod
-    def div(self):
-        pass
+#     def sub(self):
+#         x = 3
+#         y = 1
+#         print(x-y)
+#     @abstractmethod
+#     def div(self):
+#         pass
 
-class Junior(Senior):
-    def mult(self):
-        x = 8
-        y = 4
-        print(x*2)
+# class Junior(Senior):
+#     def mult(self):
+#         x = 8
+#         y = 4
+#         print(x*2)
     
-    def div(self):
-        x = 6
-        y = 3
-        print(x/y)
-obj = Junior() 
-obj.add()
-obj.div()                        
+#     def div(self):
+#         x = 6
+#         y = 3
+#         print(x/y)
+# obj = Junior() 
+# obj.add()
+# obj.div()   
+
+
+
+
+
+# encapsulation
+
+
+#public variable
+# class Parent:
+#     principal = "python" 
+#     def new(self):
+#         print("Hello")
+
+# class Child(Parent):
+#     def child(self):
+#         print("parent principle")
+#         Parent.new(self)
+
+# obj = Child()
+# obj.child()
+# print((Parent.principal)) 
+
+
+
+#protected variable
+
+# class Parent:
+#     _principal = "python" 
+#     def _new(self):
+#         print("Hello")
+
+# class Child(Parent):
+#     def child(self):
+#         print(Parent._principal)
+#         Parent._new(self)
+
+# obj = Child()
+# obj.child()
+# print((Parent._principal))
+
+  
+
+
+#private variable
+
+# class Parent:
+#     __principal = "python" 
+#     def __new(self):
+#         print("Hello")
+
+# class Child(Parent):
+#     def child(self):
+#         print(Parent.__principal)
+#         Parent.__new_new(self)
+
+# obj = Child()
+# # obj.child()
+# # print((Parent.__principal)) 
+
+
+
+
+
+class Parent:
+    __principal = "python" 
+    def __new(self):
+        print("Hello")
+
+class Child(Parent):
+    def child(self):
+        print(Parent.__principal)
+        Parent.__new(self)
+
+obj = Child()
+# obj.child()
+print(Parent._Parent__principal)
+# print(Parent.__new)
+# print(dir(Parent))
+
+
+
+
+              
 
 
  
