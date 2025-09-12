@@ -264,25 +264,36 @@
 
 
 
-class Parent:
-    __principal = "python" 
-    def __new(self):
-        print("Hello")
+# class Parent:
+#     __principal = "python" 
+#     def __new(self):
+#         print("Hello")
 
-class Child(Parent):
-    def child(self):
-        print(Parent.__principal)
-        Parent.__new(self)
+# class Child(Parent):
+#     def child(self):
+#         print(Parent.__principal)
+#         Parent.__new(self)
 
-obj = Child()
-# obj.child()
-print(Parent._Parent__principal)
-# print(Parent.__new)
-# print(dir(Parent))
-
-
+# obj = Child()
+# # obj.child()
+# print(Parent._Parent__principal)
+# # print(Parent.__new)
+# # print(dir(Parent))
 
 
+
+
+
+# x = 10
+# print(x)
+# print(y:=10)
+
+
+
+# polymorphism
+
+class Calculator:
+    
               
 
 
