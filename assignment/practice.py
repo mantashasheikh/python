@@ -71,19 +71,88 @@
 
 
 # prime number
-def Prime(n):
-    count = 0
-    for i in range(1,n+1):
-        if n%i==0:
-            count+=1
-    return count    
+# def Prime(n):
+#     count = 0
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             count+=1
+#     return count    
    
-num = int(input("enter a number")) 
-ans = Prime(num) 
-if ans==2:
-    print("Prime number")
-else:
-    print("not a prime number")
+# num = int(input("enter a number")) 
+# ans = Prime(num) 
+# if ans==2:
+#     print("Prime number")
+# else:
+#     print("not a prime number")
+
+
+# hcf
+# num1 = int(input("enter a number : "))
+# num2 = int(input("enter a number : "))
+# if num1>num2:
+#     max = num1
+# else:
+#     max = num2
+# while(1):
+#     if(max%num1==0 and max%num2==0):
+#         break
+#     max+=1
+
+# print(max)     
+
+
+# lcm
+# num1 = int(input("enter a number : "))
+# num2 = int(input("enter a number : "))
+# if num1<num2:
+#     min = num1
+# else:
+#     min= num2
+# for i in range(1,min+1):
+#     if(min%i==0 and min%i==0):
+#         break
+
+
+# print(min)  
+
+
+# anagram
+# s1 = "mantasha"
+# s2 = "kumkum"
+# for ch in s1:
+#     pass
+# if ch in s2:
+#     print("anagram")
+# else:
+#     print("not anagram") 
+    
+    
+# prime
+# n = int(input("enter a number"))     
+# count = 0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+       
+# if count==2:
+#     print("Prime number")
+# else:
+#     print("not a prime number")  
+
+
+# factorial
+n = int(input("enter a number : "))
+fact = 1
+for i in range(1,n+1):
+    fact*=i
+print(fa         
+    
+    
+    
+       
+    
+    
+               
     
     
     
