@@ -377,22 +377,22 @@
 
 
 # check the lists are equal or not
-l1 = [1,2,3,4,5]
-l2 = [1,2,3,4,5]
-for i in l1:
-    x = i
-for j in l2:
-    y = j
-if(x==j):
-    print("lists are equal")  
-else:
-    print("lists are not equal") 
+# l1 = [1,2,3,4,5]
+# l2 = [1,2,3,4,5]
+# for i in l1:
+#     x = i
+# for j in l2:
+#     y = j
+# if(x==j):
+#     print("lists are equal")  
+# else:
+#     print("lists are not equal") 
 
 
-if l1==l2:
-    print("list are equal")
-else:
-    print("list are not equal")
+# if l1==l2:
+#     print("list are equal")
+# else:
+#     print("list are not equal")
 
 
 
@@ -586,9 +586,9 @@ else:
     
  
 # get values of the dictionary 
-# # d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-# for value in d:
-#     print(d[value])
+# d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
+# for key in d:
+#     print(d[key])
     
 
 # # get item of the dictionary
@@ -599,7 +599,7 @@ else:
 
 # find the particular key occur in the dictionary 
 # d = {'name':'Mantasha', 'age':21 , 'course':'FSWD'} 
-# target = 'mantasha'
+# target = 'branch'
 # for key in d:
 #     if key==target:
 #        print("this key is present in the dictionary")
@@ -690,21 +690,21 @@ else:
 
 
 # find the length of the set
-s = {'apple','mango','banana','orange','mango'}
-count = 0
-for i in s:
-    count+=1
-print(count) 
+# s = {'apple','mango','banana','orange','mango'}
+# count = 0
+# for i in s:
+#     count+=1
+# print(count) 
 
 
 
 
 # add the item to the set
-s = {'apple','mango','banana','orange','lichi','mango'}
-item = 'pineapple'
-if item not in s:
-    s = s | {item}
-print(s) 
+# s = {'apple','mango','banana','orange','lichi','mango'}
+# item = 'pineapple'
+# if item not in s:
+#     s = s | {item}
+# print(s) 
 
 # my_set = {1, 2, 3}
 # my_set.add(4)
@@ -728,26 +728,26 @@ print(s)
 
 
 # find the union set
-s1 = {2,3,4,6}
-s2 = {1,5,8,7,2,3}
-result = set()
-for i in s1:
-    result.add(i)
-for j in s2:
-    result.add(j)
-print(result) 
+# s1 = {2,3,4,6}
+# s2 = {1,5,8,7,2,3}
+# result = set()
+# for i in s1:
+#     result.add(i)
+# for j in s2:
+#     result.add(j)
+# print(result) 
 
 
 
 # find the intersection set
-s1 = {2,3,4,6}
-s2 = {1,5,8,7,2,3}
-result = set()
-for i in s1:
-    for j in s2:
-        if i==j:
-            result.add(i)
-print(result) 
+# s1 = {2,3,4,6}
+# s2 = {1,5,8,7,2,3}
+# result = set()
+# for i in s1:
+#     for j in s2:
+#         if i==j:
+#             result.add(i)
+# print(result) 
 
 
 
@@ -757,13 +757,13 @@ print(result)
 
 
 # check another set is a subset
-s1 = {1,2,3,4,5,6,7,8,9}
-s2 = {2,4,6,9}
+# s1 = {1,2,3,4,5,6,7,8,9}
+# s2 = {2,4,6,9}
 
-if s2 in s1:
-    print("subset")
-else:
-    print("not a subset")    
+# if s2 in s1:
+#     print("subset")
+# else:
+#     print("not a subset")    
         
         
         

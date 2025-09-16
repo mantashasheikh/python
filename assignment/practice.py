@@ -141,13 +141,89 @@
 
 
 # factorial
+# n = int(input("enter a number : "))
+# fact = 1
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)  
+
+
+
+# table
+# for i in range(2,10+1):
+#     for j in range(1,10+1):
+#         ans = i*j
+#         print(ans,end=" ") 
+#     print()   
+    
+
+
+
+# armstrong
+# n = int(input("enter a number : "))
+# temp = n
+# ans = 0
+# x = len(str(n))
+# while n>0:
+#     digit = n%10
+#     ans+=digit**x
+#     n//=10
+# if ans==temp:
+#     print("armstrong")
+# else:
+#     print("not an armstrong") 
+    
+    
+
+
+# fibonacci
 n = int(input("enter a number : "))
-fact = 1
-for i in range(1,n+1):
-    fact*=i
-print(fa         
+first = 0
+second = 1
+print(first)
+print(second)
+for i in range(2,n+1):
+    next = first+second
+    first = second
+    second = next
+    print(next)  
     
     
+    
+# perfect number
+n = int(input("enter a number : "))
+sum = 0
+for i in range(1,n):
+    if n%i==0:
+if n==sum:
+    print("perfect") 
+else:
+    print("not a perfect")       
+       
+       
+
+    
+    
+    
+
+  
+    
+    
+
+   
+    
+    
+
+    
+    
+    
+ 
+                   
+    
+
+
+
+
     
        
     
