@@ -138,3 +138,49 @@ o3 = ObjectCounter()
 o4 = ObjectCounter()
 
 ObjectCounter.display_count()  # Output: Total objects created: 3
+
+
+
+
+
+
+
+
+
+
+
+
+class Account:
+    def __init__(self, initial_balance=0):
+        self.__balance = initial_balance   # private attribute
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            print(f"Deposited: {amount}. New Balance: {self.__balance}")
+        else:
+            print("Deposit amount must be positive.")
+
+    def withdraw(self, amount):
+        if amount <= 0:
+            print("Withdrawal amount must be positive.")
+        elif amount > self.__balance:
+            print("Insufficient funds.")
+        else:
+            self.__balance -= amount
+            print(f"Withdrew: {amount}. Remaining Balance: {self.__balance}")
+
+    def get_balance(self):
+        """Public method to safely access balance"""
+        return self.__balance
+
+
+# Example usage
+if __name__ == "__main__":
+    acc = Account(1000)
+    print("Initial Balance:", acc.get_balance())
+
+    acc.deposit(500)
+    acc.withdraw(200)
+    acc.withdraw(2000)  # will fail due to insufficient funds
+
