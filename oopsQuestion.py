@@ -64,3 +64,77 @@ s1.display_result()
 s2 = Student("Bob", [45, 50, 39, 60, 55])
 s2.display_result()
 
+
+
+
+
+
+
+
+# define an abstract base class polygon with an abstract method area classes rectangle and triangle
+
+from abc import ABC, abstractmethod
+
+# Abstract Base Class
+class Polygon(ABC):
+    @abstractmethod
+    def area(self):
+        """Abstract method to calculate area"""
+        pass
+
+# Rectangle class inheriting from Polygon
+class Rectangle(Polygon):
+    def __init__(self, length, breadth):
+        self.length = length
+        self.breadth = breadth
+    
+    def area(self):
+        return self.length * self.breadth
+
+# Triangle class inheriting from Polygon
+class Triangle(Polygon):
+    def __init__(self, base, height):
+        self.base = base
+        self.height = height
+    
+    def area(self):
+        return 0.5 * self.base * self.height
+
+# Example usage
+
+rect = Rectangle(10, 5)
+tri = Triangle(6, 4)
+
+print("Area of Rectangle:", rect.area())
+print("Area of Triangle:", tri.area())
+
+
+
+
+
+
+
+
+# design a class that tracks how many object have been created from it and has a method to display this count
+class ObjectCounter:
+    # class variable to track number of objects
+    __count = 0
+
+    def __init__(self):
+        ObjectCounter.__count += 1   # increment whenever object is created
+
+    @classmethod
+    def display_count(cls):
+        """Displays how many objects have been created"""
+        print(f"Total objects created: {cls.__count}")
+        return cls.__count
+
+
+# Example usage
+
+o1 = ObjectCounter()
+o2 = ObjectCounter()
+o3 = ObjectCounter()
+o4 = ObjectCounter()
+
+ObjectCounter.display_count()  # Output: Total objects created: 3
