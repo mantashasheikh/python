@@ -74,6 +74,41 @@ if ans==temp:
     print("armstrong")
 else:
     print("not an armstrong")
+    
+    
+
+
+# palindrome
+# n = int(input("enter a number"))
+# original = n
+# rev = 0
+# while n>0:
+#     digit = n%10
+#     rev+=digit
+#     n//=10
+# if rev==original:
+#     print("palindrome")
+# else:
+#     print("not a palindrome")
+    
+
+
+# lcm
+num1 = int(input("enter a number : "))
+num2 = int(input("enter a number : "))
+lcm = 0
+max = 0
+if num1>num2:
+    max = num1
+else:
+    max = num2
+if max%num1==0 and max%num2==0:
+    lcm = max
+    print(lcm)    
+            
+    
+ 
+     
 
 
 
