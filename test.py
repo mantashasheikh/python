@@ -62,18 +62,18 @@
 
 
 #   armstrong
-n = int(input("enter a number : "))
-temp = n
-ans = 0
-x = len(str(n))
-while n>0:
-    digit = n%10
-    ans+=digit**x
-    n//=10
-if ans==temp:
-    print("armstrong")
-else:
-    print("not an armstrong")
+# n = int(input("enter a number : "))
+# temp = n
+# ans = 0
+# x = len(str(n))
+# while n>0:
+#     digit = n%10
+#     ans+=digit**x
+#     n//=10
+# if ans==temp:
+#     print("armstrong")
+# else:
+#     print("not an armstrong")
     
     
 
@@ -94,19 +94,113 @@ else:
 
 
 # lcm
-num1 = int(input("enter a number : "))
-num2 = int(input("enter a number : "))
-lcm = 0
-max = 0
-if num1>num2:
-    max = num1
-else:
-    max = num2
-if max%num1==0 and max%num2==0:
-    lcm = max
-    print(lcm)    
-            
+
+
+
+
+
+
+# fibonacci
+# n = int(input("enter a number : "))
+# first = 0
+# second = 1
+# print(first)
+# print(second)
+# for i in range(2,n+1):
+#     next = first + second
+#     first = second
+#     second = next
+#     print(next)
+
+
+
+
+# Harshad  number
+# n = int(input("enter a number : "))
+# temp = n
+# sum = 0
+# while n>0:
+#     digit = n%10
+#     sum+=digit
+#     n//=10
+# if temp%sum==0:
+#     print("harshad")
+# else:
+#     print("not a harshad") 
     
+    
+    
+
+# anagram
+# s1 = input("enter a string :")
+# s2 = input("enter a string : ")
+# l1 = sorted(s1)
+# l2 = sorted(s2)
+# if l1==l2:
+#     print("anagram")
+# else:
+#     print("not a anagram")
+    
+    
+    
+
+
+# Neon
+# n = int(input("enter a number : "))
+# temp = n
+# mul = n * n
+# sum = 0
+# while mul>0:
+#     digit = mul%10
+#     sum+=digit
+#     mul//=10
+# if sum == temp:
+#     print("neon number")
+# else:
+#     print("not a neon number") 
+    
+    
+    
+
+# peterson
+# n = int(input("enter a number : "))
+# temp = n
+# sum = 0
+# while n>0:
+#     digit = n%10
+#     fact = 1
+#     for i in range(1,digit+1):
+#        fact*=i
+#     sum+=fact
+#     n//=10
+# if sum==temp:
+#     print("peterson") 
+# else:
+#     print("not a peterson") 
+
+
+
+    
+    
+
+
+# spy number
+n = int(input("enter a number"))
+
+              
+    
+ 
+
+    
+    
+    
+
+   
+            
+
+
+
+
  
      
 
