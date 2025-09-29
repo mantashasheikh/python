@@ -185,7 +185,96 @@
 
 
 # spy number
-n = int(input("enter a number"))
+# n = int(input("enter a number : "))
+# temp = n
+# sum = 0
+# mul = 1
+
+# while n>0:
+#     digit = n%10
+#     sum+=digit
+#     mul*=digit
+# if sum==mul:
+#     print("spy number")
+# else:
+#     print("not a spy")  
+
+
+
+
+
+# sunny number 
+    
+    
+    
+# l =  [2,4,0,6,0,7,0,2,4] 
+# l1 = []
+# l2 = []
+# for i in l:
+#     if i!=0:
+#         l1.append(i)
+#     else:
+#         l2.append(i)
+# for j in l2:
+#     l1.append(j)              
+# print(l1)  
+
+
+
+
+# l = [2,3,4,5,6,7,8,9]
+# l1 = []
+# l2 = []
+# for i in l:
+#     if i%2==0:
+#         l1.append(i)
+#     else:
+#         l2.append(i)
+# for j in l2:
+#     l1.append(j)
+# print(l1)
+
+
+
+# l = [2,4,5,9,7,8,6]
+# max = 0
+# for i in l:
+#     if i > max:
+#         max = i
+# print(max)  
+
+
+ 
+
+numbers = [5, 3, 8, 1, 2]
+
+# Bubble sort using swap
+for i in range(len(numbers)):
+    for j in range(len(numbers) - 1):
+        if numbers[j] > numbers[j + 1]:
+            # swap
+            numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
+
+print("Ascending order:", numbers)           
+            
+
+
+
+
+      
+        
+        
+   
+        
+          
+                         
+    
+    
+    
+
+   
+    
+    
 
               
     
