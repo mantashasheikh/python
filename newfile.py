@@ -222,4 +222,244 @@
 # print(capitalized)  
 
 
+
+
+
+
+# list
+
+
+# find the length of the list
+# l = [1, 2.5, 'mantasha', 4.5+3j, 'rimsha'] 
+# count = 0
+# for i in l:
+#     count+=1
+# print(count) 
+
+
+
+# find the sum of each element of the list
+# l = [1, 3, 5, 2.6, 7.8]
+# sum = 0
+# for i in l:
+#     sum+=i
+# print(sum)
+
+
+
+
+# find the maximum element element from the list
+# l = [2, 5, 6.8, 7.5, 7, 2.5, 55, 154235]
+# max = 0
+# for i in range(0,len(l)) :
+#     if l[i]>max:
+#         max = l[i]
+# print("the maximum number in the list : ",max)
+
+
+
+
+# find the minimum number from the list
+# l = [2, 5, 6.8, 7.5, 7, 2.5,1.5,]
+# min = 9
+# for i in range(0,len(l)) :
+#     if l[i]<min:
+#         min = l[i]
+# print("the minimum number in the list : ",min)
+
+
+
+
+# count  how many times the particular element occur in the list
+# l =  ['a','b','a', 2 , 4 , 2 , 2 ,'a']
+# count = 0
+# char = 'a'
+# for i in range(0,len(l)):
+#     if l[i]==char:
+#         count+=1
+# print(count) 
+
+
+
+# reverse a list
+# l =  [1,2,3,4,5]
+# print(l[::-1])
+
+# l = [1,2,3,4,5]            
+# rev = []
+# for i in range(len(l)-1,-1,-1):
+#     x = l[i]
+#     rev.append(x)
+# print(rev)
+
+# l = ['a','b','c','d']            
+# rev = []
+# for i in range(len(l)-1,-1,-1):
+#     rev += [l[i]]
+# print(rev)
+
+
+
+# check the given list is palindrome or not
+# l =  [1,0,1]
+# rev = (l[::-1])
+# if l==rev:
+#     print("palindrome")
+# else:
+#     print("not a palindrome") 
+
+
+
+
+# remove duplicate value from the list
+# l = ['a','b','a',2,5,2,6,'a']
+# unique = []
+# count = 0 
+# for i in range(0,len(l)):
+#     if l[i] not in unique:
+#         unique.append(l[i])
+#         count+=1
+# print(unique)
+# print(count, " character are unique")
+   
+
+
+# sort the list
+# l = [2,1,5,4,7,6,3] 
+# for i in range(len(l)):
+#     for j in range(i+1,len(l)):
+#         if l[i] > l[j]:
+#             l[i],l[j] = l[j],l[i]
+# print(l)  
+
+
+
+# merge two list
+# l1 = ['mantasha','kumkum']
+# l2 = [1,2,3] 
+# for i in range(0,len(l2)):
+#     l1.append(l2[i])
+# print(l1)    
+    
+# l1.append(l2)
+# print(l1)
+
+
+
+# find the second maximum element from the list
+# l = [1,4,3,7,2,5]
+# max = l[0]
+# for i in l:
+#     if i>max:
+#         max = i
+        
+# l = [2,1,5,4,7,6,3] 
+# for i in range(len(l)):
+#     for j in range(i+1,len(l)):
+#         if l[i] > l[j]:
+#             l[i],l[j] = l[j],l[i]
+# sec_max = 0
+# for m in range(len(l)-1):
+#     sec_max = l[m]
+# print(sec_max) 
+
+
+
+# find the common element from the lists
+# l1 = [1,2,3,4,5]
+# l2 = [7,6,5,4,3]
+# common =  []
+# for i in l1:
+#     for j in l2:
+#         if i==j:
+#             common.append(i)
+# print(common, " these are the common elements of both list") 
+
+
+
+
+# check the lists are equal or not
+# l1 = [1,2,3,4,5]
+# l2 = [1,2,3,4,5]
+# for i in l1:
+#     x = i
+# for j in l2:
+#     y = j
+# if(x==j):
+#     print("lists are equal")  
+# else:
+#     print("lists are not equal") 
+
+
+# if l1==l2:
+#     print("list are equal")
+# else:
+#     print("list are not equal")
+
+
+
+
+
+
+
+
+# split even and odd element from the list
+# l = [1,2,3,4,5,6,7]
+# even = []
+# odd = []
+# for i in l:
+#      if i % 2 == 0:
+#          even.append(i)
+#      else:
+#          odd.append(i)
+# print("list of even element : ",even)
+# print("list of odd element : ",odd) 
+
+
+
+
+# convert the list into string
+# l = ['1','2','3','4','5','6']
+# s = ""
+# for i in range(len(l)):
+#    s = "".join((s,l[i]))
+# print(s)  
+
+
+
+
+# convert the string into list
+# s =  "12345"
+# l = []
+# for i in range(len(s)):
+#     l.append(s[i])
+# print(l)   
+
+
+
+
+# alternate case convert upperCase into lowerCase and lowerCase into upperCase
+# s = "My Name Is Mantasha Sheikh. I Live In Bhopal MP . I Am 21 Years Old"
+# result = ""
+# for ch in range(len(s)):
+#     if 'a'<= s[ch] <='z':
+#         result += chr(ord(s[ch])-32)
+#     elif 'A'<= s[ch] <='Z':
+#         result += chr(ord(s[ch])+32) 
+#     else:
+#         result += s[ch]     
+# print(result) 
+
+
+
+
+# reverse each word of the string
+
+
+
+
+
+
+
+
         
