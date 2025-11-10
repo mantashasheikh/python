@@ -1,19 +1,30 @@
-n = int(input("enter a number : "))
-if(n%2==0):
-    print("even")
-else:
-    print("odd")    
+# n = int(input("enter a number : "))
+# if(n%2==0):
+#     print("even")
+# else:
+#     print("odd")    
     
-num1 = 2
-num2 = 3
-print(num1 + num2) 
+# num1 = 2
+# num2 = 3
+# print(num1 + num2) 
 
-n1 = int(input("enter a number1 : "))
-n2 = int(input("enter a number2 : "))
-print(n1 - n2)
-print(n1 * n2)   
-print(n1 / n2)
-print(n1 % n2)
+# n1 = int(input("enter a number1 : "))
+# n2 = int(input("enter a number2 : "))
+# print(n1 - n2)
+# print(n1 * n2)   
+# print(n1 / n2)
+# print(n1 % n2)
 
-s = input("enter a string : ")
-print(s[::-1])
+# s = input("enter a string : ")
+# print(s[::-1])
+
+
+
+num = int(input("enter a number : "))
+rev = 0
+while num>0:
+    digit = num%10
+    rev = rev*10+digit
+    num = num/10
+print(rev)    
+    
