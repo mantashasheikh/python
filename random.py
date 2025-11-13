@@ -28,3 +28,10 @@ while num>0:
     num = num/10
 print(rev)    
     
+
+string = input("enter a string : ")
+rev = string[::-1]
+if string==rev:
+    print("palindrome")
+else:
+    print("not a palindrome")    
