@@ -34,4 +34,10 @@ rev = string[::-1]
 if string==rev:
     print("palindrome")
 else:
-    print("not a palindrome")    
+    print("not a palindrome") 
+
+num = int(input("enter a number : "))
+
+if num%2==0:
+    print(num+num)
+           
