@@ -57,4 +57,16 @@ for i in range(1,n+1):
     next = first + second
     first = second
     second = next
-    print(next)        
+    print(next) 
+    
+    
+    
+    
+s = "this is the python class"
+print(s.lower())
+print(s.upper())
+print(s.capitalize())
+print(s.title())
+print(s.index("p"))
+print(s.count("s"))
+print(s.find("P"))           
