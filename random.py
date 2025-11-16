@@ -43,4 +43,18 @@ if num%2==0:
     
     
 name = input("enter a string :")
-print(name)           
+print(name)   
+
+
+
+N = 4
+first = 0
+second = 1
+next = 0
+print(first) 
+print(second)
+for i in range(1,n+1):
+    next = first + second
+    first = second
+    second = next
+    print(next)        
