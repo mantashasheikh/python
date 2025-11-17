@@ -69,4 +69,12 @@ print(s.capitalize())
 print(s.title())
 print(s.index("p"))
 print(s.count("s"))
-print(s.find("P"))           
+print(s.find("P"))
+
+
+l = ['1','2','3','4','5','6']
+s = ""
+for i in range(len(l)):
+   s = "".join((s,l[i]))
+print(s)  
+  
