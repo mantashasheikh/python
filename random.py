@@ -76,5 +76,16 @@ l = ['1','2','3','4','5','6']
 s = ""
 for i in range(len(l)):
    s = "".join((s,l[i]))
-print(s)  
+print(s) 
+
+
+
+l = [1,7,6,5,4,2,3]
+for i in range(len(l)):
+    if i>5:
+        print(i)
+         
+
+
+
   
