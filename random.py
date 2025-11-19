@@ -92,4 +92,7 @@ print(max(l))
 name = "mantasha"
 print(name)
 
+age = int(input("enter your age : "))
+print(age)
+print(age/2)
   
