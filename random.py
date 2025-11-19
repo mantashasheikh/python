@@ -95,4 +95,8 @@ print(name)
 age = int(input("enter your age : "))
 print(age)
 print(age/2)
+
+s1 = input("enter a string 1 : ")
+s2 = input("enter a string 2 : ")
+print(s1 + s2)
   
