@@ -109,3 +109,12 @@ print(max(t))
 
 p = "this is para"
 print(p)
+
+
+N = 2345
+count = 0
+while N>0:
+    mod = N%10
+    count+=1
+    N = N//10
+print("count:",count)
