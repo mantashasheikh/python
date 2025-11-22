@@ -106,3 +106,6 @@ print(Class)
 
 t = (2,3,4,59,7,6)
 print(max(t))
+
+p = "this is para"
+print(p)
