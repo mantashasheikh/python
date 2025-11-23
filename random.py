@@ -127,3 +127,15 @@ while N>0:
     sum = sum+mod
     N =N//10
 print(sum) 
+
+N = 1221
+ans = N
+rev = 0
+while N>0:
+    mod = N%10
+    rev = rev*10+mod
+    N =N//10
+if rev==ans:
+    print("it is a palindrome")
+else:
+    print("It is not a palindrome")
