@@ -118,3 +118,12 @@ while N>0:
     count+=1
     N = N//10
 print("count:",count)
+
+
+N = 123
+sum = 0
+while N>0:
+    mod = N%10
+    sum = sum+mod
+    N =N//10
+print(sum) 
