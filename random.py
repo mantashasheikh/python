@@ -150,3 +150,19 @@ for num in range(1,num+1):
                 break
             else:
                 print(num)     
+
+
+a = int(input("enter a number:"))
+b = int(input("enter a number:"))
+max = 0
+if(a>b):
+    max = a
+else:
+    max = b
+c = max    
+while True:
+    if(max%a==0 and max%b==0):
+        break
+    max += c
+print(max)                 
+                
