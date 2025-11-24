@@ -164,5 +164,15 @@ while True:
     if(max%a==0 and max%b==0):
         break
     max += c
-print(max)                 
+print(max) 
+
+
+n1 = int(input("enter a number:"))
+n2 = int(input("enter a number:"))
+for i in range(1,n1+1):
+    for j in range(1,n2+1):
+        if(n1%i==0 and n2%i==0):
+            hcf=i
+            break
+print(hcf)                
                 
