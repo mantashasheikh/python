@@ -182,4 +182,9 @@ power = int(input("enter a number"))
 for i in range(1, base+1):
     ans=base**power
 print(ans)                
-                
+
+s =  "12345"
+l = []
+for i in range(len(s)):
+    l.append(s[i])
+print(l)                
