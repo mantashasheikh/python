@@ -188,3 +188,14 @@ l = []
 for i in range(len(s)):
     l.append(s[i])
 print(l)                
+
+s = "My Name Is Mantasha Sheikh. I Live In Bhopal MP . I Am 21 Years Old"
+result = ""
+for ch in range(len(s)):
+    if 'a'<= s[ch] <='z':
+        result += chr(ord(s[ch])-32)
+    elif 'A'<= s[ch] <='Z':
+        result += chr(ord(s[ch])+32) 
+    else:
+        result += s[ch]     
+print(result) 
