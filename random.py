@@ -206,3 +206,15 @@ i = 1
 while i<=n:
     print("*"*n)
     i = i+1
+    
+class Student:
+    school_code  = 101
+    def __init__(self,name):
+        self.n = name
+        
+    @classmethod
+    def update_code(cls,new_code):
+        cls.school_code = new_code
+        cls.city = "bhopal"
+obj = Student("neeraj")
+print(obj.school_code)    
