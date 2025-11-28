@@ -224,3 +224,11 @@ obj2 = Student("Rahul")
 print(obj2.school_code)
 print(obj.city)
 print(obj2.city)
+
+
+
+t = (2,4,5,7,"a","b","c")
+count = 0
+for i in range(len(t)):
+    count+=1
+print(count)
