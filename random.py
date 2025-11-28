@@ -218,3 +218,9 @@ class Student:
         cls.city = "bhopal"
 obj = Student("neeraj")
 print(obj.school_code)    
+obj.update_code(102)
+print(obj.school_code)
+obj2 = Student("Rahul")
+print(obj2.school_code)
+print(obj.city)
+print(obj2.city)
