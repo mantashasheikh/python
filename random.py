@@ -260,3 +260,10 @@ for i in range(0,len(t)) :
     if t[i]>max:
         max = t[i]
 print("the maximum number in the tuple : ",max)
+
+t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
+min = 9
+for i in range(0,len(t)) :
+    if t[i]<min:
+        min = t[i]
+print("the minimum number in the tuple : ",min)
