@@ -244,3 +244,12 @@ class Child(Parent):
 obj = Child()
 obj.home()
 obj.car()
+
+
+t = (2,4,2,5,2,"a","b","c","a")
+target = 2
+count = 0
+for i in t:
+    if target == i:
+        count+=1
+print(count)
