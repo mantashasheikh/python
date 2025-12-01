@@ -253,3 +253,10 @@ for i in t:
     if target == i:
         count+=1
 print(count)
+
+t = ( 2, 5, 6.8, 7.5, 7, 2.5, 55, 15)
+max = 0
+for i in range(0,len(t)) :
+    if t[i]>max:
+        max = t[i]
+print("the maximum number in the tuple : ",max)
