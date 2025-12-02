@@ -273,3 +273,14 @@ sum = 0
 for i in t:
     sum+=i
 print(sum)
+marks = int(input("enter a marks: "))
+if(marks>=80 and marks<=100):
+    print("A")
+elif(marks>=60 and marks<80):
+    print("B") 
+elif(marks>=40 and marks<60):
+    print("C")
+elif(marks>=0 and marks<40):
+    print("D")
+else:
+    print("E")
