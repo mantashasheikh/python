@@ -267,3 +267,9 @@ for i in range(0,len(t)) :
     if t[i]<min:
         min = t[i]
 print("the minimum number in the tuple : ",min)
+
+t = (2,4.5,7,8.8,5)
+sum = 0
+for i in t:
+    sum+=i
+print(sum)
