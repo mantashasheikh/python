@@ -284,3 +284,11 @@ elif(marks>=0 and marks<40):
     print("D")
 else:
     print("E")
+    
+    
+    
+num = int(input("enter a number:"))
+if(num%2==0):
+    print(num, ": is even")
+else:
+    print(num , ": is odd")      
