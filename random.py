@@ -292,3 +292,18 @@ if(num%2==0):
     print(num, ": is even")
 else:
     print(num , ": is odd")      
+    
+    
+n = int(input("enter a number : "))
+temp = n
+sum = 0
+mul = 1
+
+while n>0:
+    digit = n%10
+    sum+=digit
+    mul*=digit
+if sum==mul:
+    print("spy number")
+else:
+    print("not a spy")     
