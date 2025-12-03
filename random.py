@@ -323,3 +323,17 @@ if sum==temp:
     print("peterson") 
 else:
     print("not a peterson")        
+    
+    
+n = int(input("enter a number : "))
+temp = n
+mul = n * n
+sum = 0
+while mul>0:
+    digit = mul%10
+    sum+=digit
+    mul//=10
+if sum == temp:
+    print("neon number")
+else:
+    print("not a neon number")     
