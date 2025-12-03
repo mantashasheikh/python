@@ -306,4 +306,20 @@ while n>0:
 if sum==mul:
     print("spy number")
 else:
-    print("not a spy")     
+    print("not a spy")  
+    
+    
+n = int(input("enter a number : "))
+temp = n
+sum = 0
+while n>0:
+    digit = n%10
+    fact = 1
+    for i in range(1,digit+1):
+       fact*=i
+    sum+=fact
+    n//=10
+if sum==temp:
+    print("peterson") 
+else:
+    print("not a peterson")        
