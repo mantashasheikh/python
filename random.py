@@ -345,3 +345,7 @@ for item in t:
         print(index)
     index+=1      
     
+    
+t = (1,2,3,4,5)
+print(t[::-1])    
+    
